@@ -14,8 +14,12 @@ public class Wordbook {
 		// Create a new instance of the Firefox driver
 		// Notice that the remainder of the code relies on the interface,
 		// not the implementation.
-		System.setProperty("webdriver.chrome.driver",
+		String currentOS = System.getProperty("os.name");
+		if (currentOS.contains("Mac")){
+			System.setProperty("webdriver.chrome.driver",
 				"driver/chromedriver");
+		}
+		
 		WebDriver driver = new ChromeDriver();
 
 		// And now use this to visit Google
