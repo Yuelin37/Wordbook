@@ -9,6 +9,8 @@ public class readfile {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
+		
+		System.out.println(System.getProperty("os.name"));
 		// TODO Auto-generated method stub
 		// 1. Buffered input file
 		try {
@@ -18,8 +20,8 @@ public class readfile {
 			String s, s2 = new String();
 			while ((s = in.readLine()) != null){
 				s2 += s + "\n";
-				if (s.length()<=20)
-					System.out.println(s);
+//				if (s.length()<=20)
+//					System.out.println(s);
 			}
 			in.close();
 
