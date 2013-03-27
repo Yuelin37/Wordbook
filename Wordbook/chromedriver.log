@@ -1,5 +1,5 @@
 [0.001][INFO]:      ChromeDriver 26.0.1383.0 C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe
-[1.093][FINE]:      Initializing session with capabilities {
+[0.596][FINE]:      Initializing session with capabilities {
    "browserName": "chrome",
    "chrome.switches": [  ],
    "chromeOptions": {
@@ -10,11 +10,11 @@
    "version": ""
 }
 
-[1.093][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
-[1.327][INFO]:      Connected to Chrome successfully. Version: 25.0.1364.172
-[1.336][FINE]:      Command received (/session/d44cfff5b708b246e58e6870b239f6cc)
-[1.336][FINE]:      Command finished (/session/d44cfff5b708b246e58e6870b239f6cc) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[0.597][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[0.824][INFO]:      Connected to Chrome successfully. Version: 25.0.1364.172
+[0.833][FINE]:      Command received (/session/756ee703fb8d85959c6f1be054cbe160)
+[0.833][FINE]:      Command finished (/session/756ee703fb8d85959c6f1be054cbe160) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
       "acceptSslCerts": false,
@@ -36,498 +36,1762 @@
    }
 }
 
-[1.350][FINE]:      Command received (/session/d44cfff5b708b246e58e6870b239f6cc/url) with params {
+[0.847][FINE]:      Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
    "url": "http://dict.youdao.com/search?le=eng&q=flint&keyfrom=dict.index"
 }
 
-[1.350][FINER]:     Waiting for all views to stop loading...
-[1.350][FINER]:     Done waiting for all views to stop loading
-[17.701][FINER]:    Waiting for all views to stop loading...
-[18.566][FINER]:    Done waiting for all views to stop loading
-[18.566][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/url) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[0.847][FINER]:     Waiting for all views to stop loading...
+[0.848][FINER]:     Done waiting for all views to stop loading
+[14.444][FINER]:    Waiting for all views to stop loading...
+[14.450][FINER]:    Done waiting for all views to stop loading
+[14.450][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
 
    }
 }
 
-[18.577][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element) with params {
+[14.459][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
    "using": "link text",
    "value": "\u767B\u5F55"
 }
 
-[18.577][FINER]:    Waiting for all views to stop loading...
-[18.577][FINER]:    Done waiting for all views to stop loading
-[18.606][FINER]:    Waiting for all views to stop loading...
-[18.607][FINER]:    Done waiting for all views to stop loading
-[18.607][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[14.459][FINER]:    Waiting for all views to stop loading...
+[14.460][FINER]:    Done waiting for all views to stop loading
+[14.487][FINER]:    Waiting for all views to stop loading...
+[14.488][FINER]:    Done waiting for all views to stop loading
+[14.488][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1364345740174"
+      "ELEMENT": ":wdc:1364345987897"
    }
 }
 
-[18.613][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345740174/click) with params {
-   "id": ":wdc:1364345740174"
+[14.493][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364345987897/click) with params {
+   "id": ":wdc:1364345987897"
 }
 
-[18.613][FINER]:    Waiting for all views to stop loading...
-[18.613][FINER]:    Done waiting for all views to stop loading
-[18.661][FINER]:    Waiting for all views to stop loading...
-[24.486][FINER]:    Done waiting for all views to stop loading
-[24.486][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345740174/click) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[14.493][FINER]:    Waiting for all views to stop loading...
+[14.494][FINER]:    Done waiting for all views to stop loading
+[14.545][FINER]:    Waiting for all views to stop loading...
+[16.742][FINER]:    Done waiting for all views to stop loading
+[16.742][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364345987897/click) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
 
    }
 }
 
-[24.489][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element) with params {
+[16.746][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
    "using": "id",
    "value": "username"
 }
 
-[24.489][FINER]:    Waiting for all views to stop loading...
-[24.491][FINER]:    Done waiting for all views to stop loading
-[24.514][FINER]:    Waiting for all views to stop loading...
-[24.514][FINER]:    Done waiting for all views to stop loading
-[24.514][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[16.746][FINER]:    Waiting for all views to stop loading...
+[16.746][FINER]:    Done waiting for all views to stop loading
+[16.776][FINER]:    Waiting for all views to stop loading...
+[16.776][FINER]:    Done waiting for all views to stop loading
+[16.776][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1364345746082"
+      "ELEMENT": ":wdc:1364345990186"
    }
 }
 
-[24.517][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345746082/value) with params {
-   "id": ":wdc:1364345746082",
+[16.778][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364345990186/value) with params {
+   "id": ":wdc:1364345990186",
    "value": [ "yuelinyan@hotmail.com" ]
 }
 
-[24.517][FINER]:    Waiting for all views to stop loading...
-[24.518][FINER]:    Done waiting for all views to stop loading
-[24.641][FINER]:    Waiting for all views to stop loading...
-[24.641][FINER]:    Done waiting for all views to stop loading
-[24.641][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345746082/value) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[16.779][FINER]:    Waiting for all views to stop loading...
+[16.779][FINER]:    Done waiting for all views to stop loading
+[16.888][FINER]:    Waiting for all views to stop loading...
+[16.889][FINER]:    Done waiting for all views to stop loading
+[16.889][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364345990186/value) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
 
    }
 }
 
-[24.643][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element) with params {
+[16.891][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
    "using": "id",
    "value": "password"
 }
 
-[24.643][FINER]:    Waiting for all views to stop loading...
-[24.643][FINER]:    Done waiting for all views to stop loading
-[24.663][FINER]:    Waiting for all views to stop loading...
-[24.664][FINER]:    Done waiting for all views to stop loading
-[24.664][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[16.891][FINER]:    Waiting for all views to stop loading...
+[16.891][FINER]:    Done waiting for all views to stop loading
+[16.909][FINER]:    Waiting for all views to stop loading...
+[16.909][FINER]:    Done waiting for all views to stop loading
+[16.909][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1364345746083"
+      "ELEMENT": ":wdc:1364345990187"
    }
 }
 
-[24.666][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345746083/value) with params {
-   "id": ":wdc:1364345746083",
+[16.911][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364345990187/value) with params {
+   "id": ":wdc:1364345990187",
    "value": [ "hanxiaomei" ]
 }
 
-[24.666][FINER]:    Waiting for all views to stop loading...
-[24.667][FINER]:    Done waiting for all views to stop loading
-[24.737][FINER]:    Waiting for all views to stop loading...
-[24.737][FINER]:    Done waiting for all views to stop loading
-[24.737][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345746083/value) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[16.911][FINER]:    Waiting for all views to stop loading...
+[16.912][FINER]:    Done waiting for all views to stop loading
+[16.980][FINER]:    Waiting for all views to stop loading...
+[16.980][FINER]:    Done waiting for all views to stop loading
+[16.980][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364345990187/value) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
 
    }
 }
 
-[24.739][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345746083/submit) with params {
-   "id": ":wdc:1364345746083"
+[16.982][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364345990187/submit) with params {
+   "id": ":wdc:1364345990187"
 }
 
-[24.739][FINER]:    Waiting for all views to stop loading...
-[24.739][FINER]:    Done waiting for all views to stop loading
-[24.762][FINER]:    Waiting for all views to stop loading...
-[39.237][FINER]:    Done waiting for all views to stop loading
-[39.237][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345746083/submit) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[16.982][FINER]:    Waiting for all views to stop loading...
+[16.983][FINER]:    Done waiting for all views to stop loading
+[17.006][FINER]:    Waiting for all views to stop loading...
+[23.778][FINER]:    Done waiting for all views to stop loading
+[23.779][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364345990187/submit) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": null
 }
 
-[39.241][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element) with params {
+[23.782][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
    "using": "id",
    "value": "wordbook"
 }
 
-[39.241][FINER]:    Waiting for all views to stop loading...
-[39.242][FINER]:    Done waiting for all views to stop loading
-[39.278][FINER]:    Waiting for all views to stop loading...
-[39.279][FINER]:    Done waiting for all views to stop loading
-[39.279][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[23.782][FINER]:    Waiting for all views to stop loading...
+[23.784][FINER]:    Done waiting for all views to stop loading
+[23.820][FINER]:    Waiting for all views to stop loading...
+[23.820][FINER]:    Done waiting for all views to stop loading
+[23.820][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1364345760846"
+      "ELEMENT": ":wdc:1364345997230"
    }
 }
 
-[39.283][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/url) with params {
+[23.823][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
    "url": "http://dict.youdao.com/search?le=eng&q=gazed&keyfrom=dict.index"
 }
 
-[39.283][FINER]:    Waiting for all views to stop loading...
-[39.284][FINER]:    Done waiting for all views to stop loading
-[47.199][FINER]:    Waiting for all views to stop loading...
-[47.204][FINER]:    Done waiting for all views to stop loading
-[47.204][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/url) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[23.823][FINER]:    Waiting for all views to stop loading...
+[23.824][FINER]:    Done waiting for all views to stop loading
+[28.370][FINER]:    Waiting for all views to stop loading...
+[28.373][FINER]:    Done waiting for all views to stop loading
+[28.373][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
 
    }
 }
 
-[47.207][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element) with params {
+[28.375][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
    "using": "id",
    "value": "wordbook"
 }
 
-[47.207][FINER]:    Waiting for all views to stop loading...
-[47.208][FINER]:    Done waiting for all views to stop loading
-[47.238][FINER]:    Waiting for all views to stop loading...
-[47.238][FINER]:    Done waiting for all views to stop loading
-[47.238][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[28.375][FINER]:    Waiting for all views to stop loading...
+[28.375][FINER]:    Done waiting for all views to stop loading
+[28.382][FINER]:    Waiting for all views to stop loading...
+[28.382][FINER]:    Done waiting for all views to stop loading
+[28.382][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1364345768806"
+      "ELEMENT": ":wdc:1364346001793"
    }
 }
 
-[47.241][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345768806/attribute/class)
-[47.241][FINER]:    Waiting for all views to stop loading...
-[47.241][FINER]:    Done waiting for all views to stop loading
-[47.255][FINER]:    Waiting for all views to stop loading...
-[47.256][FINER]:    Done waiting for all views to stop loading
-[47.256][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345768806/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[28.385][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346001793/attribute/class)
+[28.385][FINER]:    Waiting for all views to stop loading...
+[28.385][FINER]:    Done waiting for all views to stop loading
+[28.397][FINER]:    Waiting for all views to stop loading...
+[28.398][FINER]:    Done waiting for all views to stop loading
+[28.398][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346001793/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": "remove_from_wordbook"
 }
 
-[47.258][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345768806/attribute/class)
-[47.258][FINER]:    Waiting for all views to stop loading...
-[47.258][FINER]:    Done waiting for all views to stop loading
-[47.264][FINER]:    Waiting for all views to stop loading...
-[47.264][FINER]:    Done waiting for all views to stop loading
-[47.264][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345768806/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[28.400][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346001793/attribute/class)
+[28.400][FINER]:    Waiting for all views to stop loading...
+[28.400][FINER]:    Done waiting for all views to stop loading
+[28.406][FINER]:    Waiting for all views to stop loading...
+[28.406][FINER]:    Done waiting for all views to stop loading
+[28.406][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346001793/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": "remove_from_wordbook"
 }
 
-[52.267][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/url) with params {
+[33.410][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
    "url": "http://dict.youdao.com/search?le=eng&q=novelty&keyfrom=dict.index"
 }
 
-[52.267][FINER]:    Waiting for all views to stop loading...
-[52.268][FINER]:    Done waiting for all views to stop loading
-[68.649][FINER]:    Waiting for all views to stop loading...
-[68.654][FINER]:    Done waiting for all views to stop loading
-[68.654][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/url) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[33.410][FINER]:    Waiting for all views to stop loading...
+[33.411][FINER]:    Done waiting for all views to stop loading
+[37.163][FINER]:    Waiting for all views to stop loading...
+[37.168][FINER]:    Done waiting for all views to stop loading
+[37.168][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
 
    }
 }
 
-[68.657][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element) with params {
+[37.171][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
    "using": "id",
    "value": "wordbook"
 }
 
-[68.657][FINER]:    Waiting for all views to stop loading...
-[68.657][FINER]:    Done waiting for all views to stop loading
-[68.688][FINER]:    Waiting for all views to stop loading...
-[68.688][FINER]:    Done waiting for all views to stop loading
-[68.689][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[37.171][FINER]:    Waiting for all views to stop loading...
+[37.171][FINER]:    Done waiting for all views to stop loading
+[37.190][FINER]:    Waiting for all views to stop loading...
+[37.190][FINER]:    Done waiting for all views to stop loading
+[37.190][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1364345790254"
+      "ELEMENT": ":wdc:1364346010600"
    }
 }
 
-[68.692][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345790254/attribute/class)
-[68.692][FINER]:    Waiting for all views to stop loading...
-[68.692][FINER]:    Done waiting for all views to stop loading
-[68.705][FINER]:    Waiting for all views to stop loading...
-[68.705][FINER]:    Done waiting for all views to stop loading
-[68.706][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345790254/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[37.194][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346010600/attribute/class)
+[37.194][FINER]:    Waiting for all views to stop loading...
+[37.194][FINER]:    Done waiting for all views to stop loading
+[37.207][FINER]:    Waiting for all views to stop loading...
+[37.208][FINER]:    Done waiting for all views to stop loading
+[37.208][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346010600/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": "remove_from_wordbook"
 }
 
-[68.707][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345790254/attribute/class)
-[68.707][FINER]:    Waiting for all views to stop loading...
-[68.708][FINER]:    Done waiting for all views to stop loading
-[68.713][FINER]:    Waiting for all views to stop loading...
-[68.714][FINER]:    Done waiting for all views to stop loading
-[68.714][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345790254/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[37.209][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346010600/attribute/class)
+[37.209][FINER]:    Waiting for all views to stop loading...
+[37.210][FINER]:    Done waiting for all views to stop loading
+[37.216][FINER]:    Waiting for all views to stop loading...
+[37.216][FINER]:    Done waiting for all views to stop loading
+[37.216][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346010600/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": "remove_from_wordbook"
 }
 
-[73.718][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/url) with params {
+[42.218][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
    "url": "http://dict.youdao.com/search?le=eng&q=indigestion&keyfrom=dict.index"
 }
 
-[73.718][FINER]:    Waiting for all views to stop loading...
-[73.719][FINER]:    Done waiting for all views to stop loading
-[77.588][FINER]:    Waiting for all views to stop loading...
-[77.593][FINER]:    Done waiting for all views to stop loading
-[77.593][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/url) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[42.218][FINER]:    Waiting for all views to stop loading...
+[42.219][FINER]:    Done waiting for all views to stop loading
+[53.190][FINER]:    Waiting for all views to stop loading...
+[53.193][FINER]:    Done waiting for all views to stop loading
+[53.193][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
 
    }
 }
 
-[77.596][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element) with params {
+[53.195][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
    "using": "id",
    "value": "wordbook"
 }
 
-[77.596][FINER]:    Waiting for all views to stop loading...
-[77.596][FINER]:    Done waiting for all views to stop loading
-[77.627][FINER]:    Waiting for all views to stop loading...
-[77.627][FINER]:    Done waiting for all views to stop loading
-[77.627][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[53.195][FINER]:    Waiting for all views to stop loading...
+[53.195][FINER]:    Done waiting for all views to stop loading
+[53.216][FINER]:    Waiting for all views to stop loading...
+[53.216][FINER]:    Done waiting for all views to stop loading
+[53.217][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1364345799194"
+      "ELEMENT": ":wdc:1364346026626"
    }
 }
 
-[77.630][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345799194/attribute/class)
-[77.630][FINER]:    Waiting for all views to stop loading...
-[77.630][FINER]:    Done waiting for all views to stop loading
-[77.643][FINER]:    Waiting for all views to stop loading...
-[77.644][FINER]:    Done waiting for all views to stop loading
-[77.644][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345799194/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[53.219][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346026626/attribute/class)
+[53.219][FINER]:    Waiting for all views to stop loading...
+[53.219][FINER]:    Done waiting for all views to stop loading
+[53.232][FINER]:    Waiting for all views to stop loading...
+[53.233][FINER]:    Done waiting for all views to stop loading
+[53.233][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346026626/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": "remove_from_wordbook"
 }
 
-[77.646][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345799194/attribute/class)
-[77.646][FINER]:    Waiting for all views to stop loading...
-[77.646][FINER]:    Done waiting for all views to stop loading
-[77.653][FINER]:    Waiting for all views to stop loading...
-[77.653][FINER]:    Done waiting for all views to stop loading
-[77.653][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345799194/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[53.235][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346026626/attribute/class)
+[53.235][FINER]:    Waiting for all views to stop loading...
+[53.236][FINER]:    Done waiting for all views to stop loading
+[53.242][FINER]:    Waiting for all views to stop loading...
+[53.242][FINER]:    Done waiting for all views to stop loading
+[53.242][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346026626/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": "remove_from_wordbook"
 }
 
-[82.656][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/url) with params {
+[58.244][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
    "url": "http://dict.youdao.com/search?le=eng&q=harping&keyfrom=dict.index"
 }
 
-[82.656][FINER]:    Waiting for all views to stop loading...
-[82.657][FINER]:    Done waiting for all views to stop loading
-[87.227][FINER]:    Waiting for all views to stop loading...
-[87.230][FINER]:    Done waiting for all views to stop loading
-[87.230][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/url) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[58.244][FINER]:    Waiting for all views to stop loading...
+[58.244][FINER]:    Done waiting for all views to stop loading
+[62.530][FINER]:    Waiting for all views to stop loading...
+[62.535][FINER]:    Done waiting for all views to stop loading
+[62.535][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
 
    }
 }
 
-[87.232][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element) with params {
+[62.538][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
    "using": "id",
    "value": "wordbook"
 }
 
-[87.232][FINER]:    Waiting for all views to stop loading...
-[87.232][FINER]:    Done waiting for all views to stop loading
-[87.251][FINER]:    Waiting for all views to stop loading...
-[87.251][FINER]:    Done waiting for all views to stop loading
-[87.251][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[62.538][FINER]:    Waiting for all views to stop loading...
+[62.539][FINER]:    Done waiting for all views to stop loading
+[62.564][FINER]:    Waiting for all views to stop loading...
+[62.565][FINER]:    Done waiting for all views to stop loading
+[62.565][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1364345808818"
+      "ELEMENT": ":wdc:1364346035975"
    }
 }
 
-[87.253][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345808818/attribute/class)
-[87.253][FINER]:    Waiting for all views to stop loading...
-[87.253][FINER]:    Done waiting for all views to stop loading
-[87.267][FINER]:    Waiting for all views to stop loading...
-[87.267][FINER]:    Done waiting for all views to stop loading
-[87.267][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345808818/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[62.567][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346035975/attribute/class)
+[62.567][FINER]:    Waiting for all views to stop loading...
+[62.567][FINER]:    Done waiting for all views to stop loading
+[62.580][FINER]:    Waiting for all views to stop loading...
+[62.581][FINER]:    Done waiting for all views to stop loading
+[62.581][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346035975/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": "remove_from_wordbook"
 }
 
-[87.270][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345808818/attribute/class)
-[87.270][FINER]:    Waiting for all views to stop loading...
-[87.270][FINER]:    Done waiting for all views to stop loading
-[87.276][FINER]:    Waiting for all views to stop loading...
-[87.277][FINER]:    Done waiting for all views to stop loading
-[87.277][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345808818/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[62.583][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346035975/attribute/class)
+[62.583][FINER]:    Waiting for all views to stop loading...
+[62.583][FINER]:    Done waiting for all views to stop loading
+[62.588][FINER]:    Waiting for all views to stop loading...
+[62.589][FINER]:    Done waiting for all views to stop loading
+[62.589][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346035975/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": "remove_from_wordbook"
 }
 
-[92.280][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/url) with params {
+[67.592][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
    "url": "http://dict.youdao.com/search?le=eng&q=drastic&keyfrom=dict.index"
 }
 
-[92.280][FINER]:    Waiting for all views to stop loading...
-[92.281][FINER]:    Done waiting for all views to stop loading
-[97.025][FINER]:    Waiting for all views to stop loading...
-[97.030][FINER]:    Done waiting for all views to stop loading
-[97.030][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/url) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[67.592][FINER]:    Waiting for all views to stop loading...
+[67.593][FINER]:    Done waiting for all views to stop loading
+[70.407][FINER]:    Waiting for all views to stop loading...
+[70.412][FINER]:    Done waiting for all views to stop loading
+[70.412][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
 
    }
 }
 
-[97.033][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element) with params {
+[70.414][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
    "using": "id",
    "value": "wordbook"
 }
 
-[97.033][FINER]:    Waiting for all views to stop loading...
-[97.033][FINER]:    Done waiting for all views to stop loading
-[97.052][FINER]:    Waiting for all views to stop loading...
-[97.053][FINER]:    Done waiting for all views to stop loading
-[97.053][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[70.414][FINER]:    Waiting for all views to stop loading...
+[70.414][FINER]:    Done waiting for all views to stop loading
+[70.435][FINER]:    Waiting for all views to stop loading...
+[70.435][FINER]:    Done waiting for all views to stop loading
+[70.435][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1364345818620"
+      "ELEMENT": ":wdc:1364346043842"
    }
 }
 
-[97.055][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345818620/attribute/class)
-[97.055][FINER]:    Waiting for all views to stop loading...
-[97.055][FINER]:    Done waiting for all views to stop loading
-[97.068][FINER]:    Waiting for all views to stop loading...
-[97.068][FINER]:    Done waiting for all views to stop loading
-[97.068][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345818620/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[70.437][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346043842/attribute/class)
+[70.437][FINER]:    Waiting for all views to stop loading...
+[70.437][FINER]:    Done waiting for all views to stop loading
+[70.450][FINER]:    Waiting for all views to stop loading...
+[70.451][FINER]:    Done waiting for all views to stop loading
+[70.451][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346043842/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
-   "value": ""
+   "value": "remove_from_wordbook"
 }
 
-[97.070][FINE]:     Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345818620/attribute/class)
-[97.070][FINER]:    Waiting for all views to stop loading...
-[97.071][FINER]:    Done waiting for all views to stop loading
-[97.077][FINER]:    Waiting for all views to stop loading...
-[97.077][FINER]:    Done waiting for all views to stop loading
-[97.077][FINE]:     Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345818620/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[70.453][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346043842/attribute/class)
+[70.453][FINER]:    Waiting for all views to stop loading...
+[70.453][FINER]:    Done waiting for all views to stop loading
+[70.459][FINER]:    Waiting for all views to stop loading...
+[70.459][FINER]:    Done waiting for all views to stop loading
+[70.459][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346043842/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
-   "value": ""
+   "value": "remove_from_wordbook"
 }
 
-[102.080][FINE]:    Command received (/session/d44cfff5b708b246e58e6870b239f6cc/url) with params {
+[75.462][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
    "url": "http://dict.youdao.com/search?le=eng&q=credo&keyfrom=dict.index"
 }
 
-[102.080][FINER]:   Waiting for all views to stop loading...
-[102.081][FINER]:   Done waiting for all views to stop loading
-[126.907][FINER]:   Waiting for all views to stop loading...
-[126.912][FINER]:   Done waiting for all views to stop loading
-[126.912][FINE]:    Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/url) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[75.462][FINER]:    Waiting for all views to stop loading...
+[75.463][FINER]:    Done waiting for all views to stop loading
+[78.826][FINER]:    Waiting for all views to stop loading...
+[78.831][FINER]:    Done waiting for all views to stop loading
+[78.832][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
 
    }
 }
 
-[126.917][FINE]:    Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element) with params {
+[78.835][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
    "using": "id",
    "value": "wordbook"
 }
 
-[126.917][FINER]:   Waiting for all views to stop loading...
-[126.919][FINER]:   Done waiting for all views to stop loading
-[126.960][FINER]:   Waiting for all views to stop loading...
-[126.960][FINER]:   Done waiting for all views to stop loading
-[126.960][FINE]:    Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[78.835][FINER]:    Waiting for all views to stop loading...
+[78.835][FINER]:    Done waiting for all views to stop loading
+[78.863][FINER]:    Waiting for all views to stop loading...
+[78.863][FINER]:    Done waiting for all views to stop loading
+[78.864][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1364345848529"
+      "ELEMENT": ":wdc:1364346052273"
    }
 }
 
-[126.962][FINE]:    Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345848529/attribute/class)
-[126.962][FINER]:   Waiting for all views to stop loading...
-[126.963][FINER]:   Done waiting for all views to stop loading
-[126.976][FINER]:   Waiting for all views to stop loading...
-[126.976][FINER]:   Done waiting for all views to stop loading
-[126.976][FINE]:    Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345848529/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[78.866][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346052273/attribute/class)
+[78.866][FINER]:    Waiting for all views to stop loading...
+[78.867][FINER]:    Done waiting for all views to stop loading
+[78.881][FINER]:    Waiting for all views to stop loading...
+[78.882][FINER]:    Done waiting for all views to stop loading
+[78.882][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346052273/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": "remove_from_wordbook"
 }
 
-[126.978][FINE]:    Command received (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345848529/attribute/class)
-[126.978][FINER]:   Waiting for all views to stop loading...
-[126.978][FINER]:   Done waiting for all views to stop loading
-[126.985][FINER]:   Waiting for all views to stop loading...
-[126.985][FINER]:   Done waiting for all views to stop loading
-[126.985][FINE]:    Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/element/:wdc:1364345848529/attribute/class) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
+[78.884][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346052273/attribute/class)
+[78.884][FINER]:    Waiting for all views to stop loading...
+[78.884][FINER]:    Done waiting for all views to stop loading
+[78.890][FINER]:    Waiting for all views to stop loading...
+[78.890][FINER]:    Done waiting for all views to stop loading
+[78.890][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346052273/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
    "status": 0,
    "value": "remove_from_wordbook"
 }
 
-[131.990][FINE]:    Command received (/session/d44cfff5b708b246e58e6870b239f6cc/url) with params {
+[83.892][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
    "url": "http://dict.youdao.com/search?le=eng&q=dire&keyfrom=dict.index"
 }
 
-[131.990][FINER]:   Waiting for all views to stop loading...
-[131.991][FINER]:   Done waiting for all views to stop loading
-[139.952][FINER]:   Waiting for all views to stop loading...
-[139.952][FINER]:   Done waiting for all views to stop loading
-[139.952][WARNING]: AfterExecuteCommand failed: Chrome did not respond to 'WaitForAllTabsToStopLoading'. Elapsed time was 0 ms.
-[139.952][WARNING]: Command finished (/session/d44cfff5b708b246e58e6870b239f6cc/url) with response {
-   "sessionId": "d44cfff5b708b246e58e6870b239f6cc",
-   "status": 13,
+[83.892][FINER]:    Waiting for all views to stop loading...
+[83.893][FINER]:    Done waiting for all views to stop loading
+[93.900][FINER]:    Waiting for all views to stop loading...
+[94.718][FINER]:    Done waiting for all views to stop loading
+[94.718][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
    "value": {
-      "message": "Chrome did not respond to 'NavigateToURL'. Elapsed time was 7961 ms."
+
+   }
+}
+
+[94.719][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[94.719][FINER]:    Waiting for all views to stop loading...
+[94.720][FINER]:    Done waiting for all views to stop loading
+[94.743][FINER]:    Waiting for all views to stop loading...
+[94.743][FINER]:    Done waiting for all views to stop loading
+[94.743][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346068153"
+   }
+}
+
+[94.745][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346068153/attribute/class)
+[94.745][FINER]:    Waiting for all views to stop loading...
+[94.746][FINER]:    Done waiting for all views to stop loading
+[94.758][FINER]:    Waiting for all views to stop loading...
+[94.758][FINER]:    Done waiting for all views to stop loading
+[94.758][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346068153/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[94.760][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346068153/attribute/class)
+[94.760][FINER]:    Waiting for all views to stop loading...
+[94.761][FINER]:    Done waiting for all views to stop loading
+[94.766][FINER]:    Waiting for all views to stop loading...
+[94.767][FINER]:    Done waiting for all views to stop loading
+[94.767][FINE]:     Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346068153/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[99.770][FINE]:     Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=cushion&keyfrom=dict.index"
+}
+
+[99.770][FINER]:    Waiting for all views to stop loading...
+[99.771][FINER]:    Done waiting for all views to stop loading
+[103.654][FINER]:   Waiting for all views to stop loading...
+[103.659][FINER]:   Done waiting for all views to stop loading
+[103.659][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[103.662][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[103.662][FINER]:   Waiting for all views to stop loading...
+[103.662][FINER]:   Done waiting for all views to stop loading
+[103.699][FINER]:   Waiting for all views to stop loading...
+[103.700][FINER]:   Done waiting for all views to stop loading
+[103.700][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346077109"
+   }
+}
+
+[103.703][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346077109/attribute/class)
+[103.703][FINER]:   Waiting for all views to stop loading...
+[103.704][FINER]:   Done waiting for all views to stop loading
+[103.721][FINER]:   Waiting for all views to stop loading...
+[103.721][FINER]:   Done waiting for all views to stop loading
+[103.722][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346077109/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[103.723][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346077109/attribute/class)
+[103.723][FINER]:   Waiting for all views to stop loading...
+[103.724][FINER]:   Done waiting for all views to stop loading
+[103.729][FINER]:   Waiting for all views to stop loading...
+[103.730][FINER]:   Done waiting for all views to stop loading
+[103.730][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346077109/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[108.734][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=disguise&keyfrom=dict.index"
+}
+
+[108.734][FINER]:   Waiting for all views to stop loading...
+[108.734][FINER]:   Done waiting for all views to stop loading
+[112.780][FINER]:   Waiting for all views to stop loading...
+[112.785][FINER]:   Done waiting for all views to stop loading
+[112.785][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[112.788][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[112.788][FINER]:   Waiting for all views to stop loading...
+[112.789][FINER]:   Done waiting for all views to stop loading
+[112.826][FINER]:   Waiting for all views to stop loading...
+[112.827][FINER]:   Done waiting for all views to stop loading
+[112.827][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346086237"
+   }
+}
+
+[112.829][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346086237/attribute/class)
+[112.829][FINER]:   Waiting for all views to stop loading...
+[112.829][FINER]:   Done waiting for all views to stop loading
+[112.842][FINER]:   Waiting for all views to stop loading...
+[112.842][FINER]:   Done waiting for all views to stop loading
+[112.842][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346086237/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[112.844][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346086237/attribute/class)
+[112.844][FINER]:   Waiting for all views to stop loading...
+[112.844][FINER]:   Done waiting for all views to stop loading
+[112.854][FINER]:   Waiting for all views to stop loading...
+[112.855][FINER]:   Done waiting for all views to stop loading
+[112.855][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346086237/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[117.858][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=pensive&keyfrom=dict.index"
+}
+
+[117.858][FINER]:   Waiting for all views to stop loading...
+[117.858][FINER]:   Done waiting for all views to stop loading
+[121.952][FINER]:   Waiting for all views to stop loading...
+[121.958][FINER]:   Done waiting for all views to stop loading
+[121.958][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[121.960][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[121.960][FINER]:   Waiting for all views to stop loading...
+[121.961][FINER]:   Done waiting for all views to stop loading
+[121.976][FINER]:   Waiting for all views to stop loading...
+[121.976][FINER]:   Done waiting for all views to stop loading
+[121.976][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346095389"
+   }
+}
+
+[121.979][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346095389/attribute/class)
+[121.979][FINER]:   Waiting for all views to stop loading...
+[121.979][FINER]:   Done waiting for all views to stop loading
+[121.993][FINER]:   Waiting for all views to stop loading...
+[121.994][FINER]:   Done waiting for all views to stop loading
+[121.994][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346095389/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[121.995][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346095389/attribute/class)
+[121.995][FINER]:   Waiting for all views to stop loading...
+[121.996][FINER]:   Done waiting for all views to stop loading
+[122.001][FINER]:   Waiting for all views to stop loading...
+[122.002][FINER]:   Done waiting for all views to stop loading
+[122.002][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346095389/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[127.008][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=liquidate&keyfrom=dict.index"
+}
+
+[127.008][FINER]:   Waiting for all views to stop loading...
+[127.008][FINER]:   Done waiting for all views to stop loading
+[130.730][FINER]:   Waiting for all views to stop loading...
+[130.736][FINER]:   Done waiting for all views to stop loading
+[130.736][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[130.740][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[130.740][FINER]:   Waiting for all views to stop loading...
+[130.740][FINER]:   Done waiting for all views to stop loading
+[130.776][FINER]:   Waiting for all views to stop loading...
+[130.777][FINER]:   Done waiting for all views to stop loading
+[130.777][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346104187"
+   }
+}
+
+[130.779][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346104187/attribute/class)
+[130.779][FINER]:   Waiting for all views to stop loading...
+[130.780][FINER]:   Done waiting for all views to stop loading
+[130.794][FINER]:   Waiting for all views to stop loading...
+[130.794][FINER]:   Done waiting for all views to stop loading
+[130.794][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346104187/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[130.796][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346104187/attribute/class)
+[130.796][FINER]:   Waiting for all views to stop loading...
+[130.797][FINER]:   Done waiting for all views to stop loading
+[130.802][FINER]:   Waiting for all views to stop loading...
+[130.803][FINER]:   Done waiting for all views to stop loading
+[130.803][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346104187/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[135.805][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=vultures&keyfrom=dict.index"
+}
+
+[135.805][FINER]:   Waiting for all views to stop loading...
+[135.805][FINER]:   Done waiting for all views to stop loading
+[139.527][FINER]:   Waiting for all views to stop loading...
+[139.533][FINER]:   Done waiting for all views to stop loading
+[139.533][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[139.535][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[139.535][FINER]:   Waiting for all views to stop loading...
+[139.536][FINER]:   Done waiting for all views to stop loading
+[139.550][FINER]:   Waiting for all views to stop loading...
+[139.551][FINER]:   Done waiting for all views to stop loading
+[139.551][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346112961"
+   }
+}
+
+[139.554][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346112961/attribute/class)
+[139.554][FINER]:   Waiting for all views to stop loading...
+[139.555][FINER]:   Done waiting for all views to stop loading
+[139.572][FINER]:   Waiting for all views to stop loading...
+[139.573][FINER]:   Done waiting for all views to stop loading
+[139.573][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346112961/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[139.575][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346112961/attribute/class)
+[139.575][FINER]:   Waiting for all views to stop loading...
+[139.575][FINER]:   Done waiting for all views to stop loading
+[139.581][FINER]:   Waiting for all views to stop loading...
+[139.582][FINER]:   Done waiting for all views to stop loading
+[139.582][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346112961/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[144.585][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=hump&keyfrom=dict.index"
+}
+
+[144.585][FINER]:   Waiting for all views to stop loading...
+[144.586][FINER]:   Done waiting for all views to stop loading
+[152.408][FINER]:   Waiting for all views to stop loading...
+[152.413][FINER]:   Done waiting for all views to stop loading
+[152.413][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[152.416][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[152.416][FINER]:   Waiting for all views to stop loading...
+[152.417][FINER]:   Done waiting for all views to stop loading
+[152.446][FINER]:   Waiting for all views to stop loading...
+[152.446][FINER]:   Done waiting for all views to stop loading
+[152.446][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346125855"
+   }
+}
+
+[152.448][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346125855/attribute/class)
+[152.448][FINER]:   Waiting for all views to stop loading...
+[152.448][FINER]:   Done waiting for all views to stop loading
+[152.461][FINER]:   Waiting for all views to stop loading...
+[152.461][FINER]:   Done waiting for all views to stop loading
+[152.461][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346125855/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[152.463][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346125855/attribute/class)
+[152.463][FINER]:   Waiting for all views to stop loading...
+[152.463][FINER]:   Done waiting for all views to stop loading
+[152.469][FINER]:   Waiting for all views to stop loading...
+[152.469][FINER]:   Done waiting for all views to stop loading
+[152.469][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346125855/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[157.472][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=figment&keyfrom=dict.index"
+}
+
+[157.472][FINER]:   Waiting for all views to stop loading...
+[157.472][FINER]:   Done waiting for all views to stop loading
+[161.130][FINER]:   Waiting for all views to stop loading...
+[161.135][FINER]:   Done waiting for all views to stop loading
+[161.135][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[161.138][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[161.138][FINER]:   Waiting for all views to stop loading...
+[161.139][FINER]:   Done waiting for all views to stop loading
+[161.152][FINER]:   Waiting for all views to stop loading...
+[161.152][FINER]:   Done waiting for all views to stop loading
+[161.152][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346134562"
+   }
+}
+
+[161.155][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346134562/attribute/class)
+[161.155][FINER]:   Waiting for all views to stop loading...
+[161.156][FINER]:   Done waiting for all views to stop loading
+[161.178][FINER]:   Waiting for all views to stop loading...
+[161.179][FINER]:   Done waiting for all views to stop loading
+[161.179][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346134562/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[161.181][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346134562/attribute/class)
+[161.181][FINER]:   Waiting for all views to stop loading...
+[161.182][FINER]:   Done waiting for all views to stop loading
+[161.191][FINER]:   Waiting for all views to stop loading...
+[161.191][FINER]:   Done waiting for all views to stop loading
+[161.191][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346134562/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[166.194][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=confinement&keyfrom=dict.index"
+}
+
+[166.194][FINER]:   Waiting for all views to stop loading...
+[166.195][FINER]:   Done waiting for all views to stop loading
+[174.159][FINER]:   Waiting for all views to stop loading...
+[174.164][FINER]:   Done waiting for all views to stop loading
+[174.164][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[174.167][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[174.167][FINER]:   Waiting for all views to stop loading...
+[174.167][FINER]:   Done waiting for all views to stop loading
+[174.195][FINER]:   Waiting for all views to stop loading...
+[174.195][FINER]:   Done waiting for all views to stop loading
+[174.195][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346147605"
+   }
+}
+
+[174.198][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346147605/attribute/class)
+[174.198][FINER]:   Waiting for all views to stop loading...
+[174.198][FINER]:   Done waiting for all views to stop loading
+[174.212][FINER]:   Waiting for all views to stop loading...
+[174.212][FINER]:   Done waiting for all views to stop loading
+[174.212][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346147605/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[174.214][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346147605/attribute/class)
+[174.214][FINER]:   Waiting for all views to stop loading...
+[174.214][FINER]:   Done waiting for all views to stop loading
+[174.220][FINER]:   Waiting for all views to stop loading...
+[174.220][FINER]:   Done waiting for all views to stop loading
+[174.220][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346147605/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[179.224][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=eternity&keyfrom=dict.index"
+}
+
+[179.224][FINER]:   Waiting for all views to stop loading...
+[179.224][FINER]:   Done waiting for all views to stop loading
+[184.775][FINER]:   Waiting for all views to stop loading...
+[184.780][FINER]:   Done waiting for all views to stop loading
+[184.780][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[184.782][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[184.782][FINER]:   Waiting for all views to stop loading...
+[184.783][FINER]:   Done waiting for all views to stop loading
+[184.812][FINER]:   Waiting for all views to stop loading...
+[184.812][FINER]:   Done waiting for all views to stop loading
+[184.813][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346158224"
+   }
+}
+
+[184.815][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346158224/attribute/class)
+[184.815][FINER]:   Waiting for all views to stop loading...
+[184.815][FINER]:   Done waiting for all views to stop loading
+[184.828][FINER]:   Waiting for all views to stop loading...
+[184.828][FINER]:   Done waiting for all views to stop loading
+[184.828][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346158224/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[184.830][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346158224/attribute/class)
+[184.830][FINER]:   Waiting for all views to stop loading...
+[184.830][FINER]:   Done waiting for all views to stop loading
+[184.835][FINER]:   Waiting for all views to stop loading...
+[184.835][FINER]:   Done waiting for all views to stop loading
+[184.835][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346158224/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[189.841][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=customary&keyfrom=dict.index"
+}
+
+[189.841][FINER]:   Waiting for all views to stop loading...
+[189.841][FINER]:   Done waiting for all views to stop loading
+[194.087][FINER]:   Waiting for all views to stop loading...
+[194.092][FINER]:   Done waiting for all views to stop loading
+[194.092][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[194.096][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[194.096][FINER]:   Waiting for all views to stop loading...
+[194.096][FINER]:   Done waiting for all views to stop loading
+[194.133][FINER]:   Waiting for all views to stop loading...
+[194.133][FINER]:   Done waiting for all views to stop loading
+[194.133][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346167542"
+   }
+}
+
+[194.135][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346167542/attribute/class)
+[194.135][FINER]:   Waiting for all views to stop loading...
+[194.136][FINER]:   Done waiting for all views to stop loading
+[194.149][FINER]:   Waiting for all views to stop loading...
+[194.150][FINER]:   Done waiting for all views to stop loading
+[194.150][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346167542/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[194.152][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346167542/attribute/class)
+[194.152][FINER]:   Waiting for all views to stop loading...
+[194.152][FINER]:   Done waiting for all views to stop loading
+[194.158][FINER]:   Waiting for all views to stop loading...
+[194.158][FINER]:   Done waiting for all views to stop loading
+[194.159][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346167542/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[199.160][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=wistful&keyfrom=dict.index"
+}
+
+[199.160][FINER]:   Waiting for all views to stop loading...
+[199.161][FINER]:   Done waiting for all views to stop loading
+[203.640][FINER]:   Waiting for all views to stop loading...
+[203.645][FINER]:   Done waiting for all views to stop loading
+[203.645][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[203.648][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[203.648][FINER]:   Waiting for all views to stop loading...
+[203.648][FINER]:   Done waiting for all views to stop loading
+[203.664][FINER]:   Waiting for all views to stop loading...
+[203.664][FINER]:   Done waiting for all views to stop loading
+[203.664][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346177073"
+   }
+}
+
+[203.667][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346177073/attribute/class)
+[203.667][FINER]:   Waiting for all views to stop loading...
+[203.668][FINER]:   Done waiting for all views to stop loading
+[203.686][FINER]:   Waiting for all views to stop loading...
+[203.686][FINER]:   Done waiting for all views to stop loading
+[203.687][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346177073/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[203.689][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346177073/attribute/class)
+[203.689][FINER]:   Waiting for all views to stop loading...
+[203.689][FINER]:   Done waiting for all views to stop loading
+[203.696][FINER]:   Waiting for all views to stop loading...
+[203.696][FINER]:   Done waiting for all views to stop loading
+[203.696][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346177073/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[208.698][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=tightrope&keyfrom=dict.index"
+}
+
+[208.698][FINER]:   Waiting for all views to stop loading...
+[208.699][FINER]:   Done waiting for all views to stop loading
+[212.969][FINER]:   Waiting for all views to stop loading...
+[212.971][FINER]:   Done waiting for all views to stop loading
+[212.971][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[212.973][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[212.973][FINER]:   Waiting for all views to stop loading...
+[212.973][FINER]:   Done waiting for all views to stop loading
+[212.981][FINER]:   Waiting for all views to stop loading...
+[212.981][FINER]:   Done waiting for all views to stop loading
+[212.981][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346186391"
+   }
+}
+
+[212.983][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346186391/attribute/class)
+[212.983][FINER]:   Waiting for all views to stop loading...
+[212.983][FINER]:   Done waiting for all views to stop loading
+[212.996][FINER]:   Waiting for all views to stop loading...
+[212.996][FINER]:   Done waiting for all views to stop loading
+[212.996][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346186391/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[212.998][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346186391/attribute/class)
+[212.998][FINER]:   Waiting for all views to stop loading...
+[212.998][FINER]:   Done waiting for all views to stop loading
+[213.004][FINER]:   Waiting for all views to stop loading...
+[213.004][FINER]:   Done waiting for all views to stop loading
+[213.004][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346186391/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[218.007][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=apparel&keyfrom=dict.index"
+}
+
+[218.007][FINER]:   Waiting for all views to stop loading...
+[218.007][FINER]:   Done waiting for all views to stop loading
+[222.420][FINER]:   Waiting for all views to stop loading...
+[222.425][FINER]:   Done waiting for all views to stop loading
+[222.425][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[222.428][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[222.428][FINER]:   Waiting for all views to stop loading...
+[222.428][FINER]:   Done waiting for all views to stop loading
+[222.447][FINER]:   Waiting for all views to stop loading...
+[222.447][FINER]:   Done waiting for all views to stop loading
+[222.447][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346195856"
+   }
+}
+
+[222.450][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346195856/attribute/class)
+[222.450][FINER]:   Waiting for all views to stop loading...
+[222.450][FINER]:   Done waiting for all views to stop loading
+[222.463][FINER]:   Waiting for all views to stop loading...
+[222.464][FINER]:   Done waiting for all views to stop loading
+[222.464][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346195856/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[222.466][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346195856/attribute/class)
+[222.466][FINER]:   Waiting for all views to stop loading...
+[222.466][FINER]:   Done waiting for all views to stop loading
+[222.473][FINER]:   Waiting for all views to stop loading...
+[222.473][FINER]:   Done waiting for all views to stop loading
+[222.473][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346195856/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[227.477][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=outfitting&keyfrom=dict.index"
+}
+
+[227.477][FINER]:   Waiting for all views to stop loading...
+[227.478][FINER]:   Done waiting for all views to stop loading
+[233.945][FINER]:   Waiting for all views to stop loading...
+[233.950][FINER]:   Done waiting for all views to stop loading
+[233.950][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[233.951][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[233.951][FINER]:   Waiting for all views to stop loading...
+[233.952][FINER]:   Done waiting for all views to stop loading
+[233.960][FINER]:   Waiting for all views to stop loading...
+[233.960][FINER]:   Done waiting for all views to stop loading
+[233.960][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346207369"
+   }
+}
+
+[233.962][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346207369/attribute/class)
+[233.962][FINER]:   Waiting for all views to stop loading...
+[233.962][FINER]:   Done waiting for all views to stop loading
+[233.975][FINER]:   Waiting for all views to stop loading...
+[233.975][FINER]:   Done waiting for all views to stop loading
+[233.975][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346207369/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[233.977][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346207369/attribute/class)
+[233.977][FINER]:   Waiting for all views to stop loading...
+[233.977][FINER]:   Done waiting for all views to stop loading
+[233.983][FINER]:   Waiting for all views to stop loading...
+[233.983][FINER]:   Done waiting for all views to stop loading
+[233.983][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346207369/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[238.985][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=reliant&keyfrom=dict.index"
+}
+
+[238.985][FINER]:   Waiting for all views to stop loading...
+[238.985][FINER]:   Done waiting for all views to stop loading
+[241.995][FINER]:   Waiting for all views to stop loading...
+[242.000][FINER]:   Done waiting for all views to stop loading
+[242.000][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[242.003][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[242.003][FINER]:   Waiting for all views to stop loading...
+[242.003][FINER]:   Done waiting for all views to stop loading
+[242.039][FINER]:   Waiting for all views to stop loading...
+[242.039][FINER]:   Done waiting for all views to stop loading
+[242.039][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346215450"
+   }
+}
+
+[242.043][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346215450/attribute/class)
+[242.043][FINER]:   Waiting for all views to stop loading...
+[242.044][FINER]:   Done waiting for all views to stop loading
+[242.059][FINER]:   Waiting for all views to stop loading...
+[242.059][FINER]:   Done waiting for all views to stop loading
+[242.059][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346215450/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[242.061][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346215450/attribute/class)
+[242.061][FINER]:   Waiting for all views to stop loading...
+[242.062][FINER]:   Done waiting for all views to stop loading
+[242.068][FINER]:   Waiting for all views to stop loading...
+[242.068][FINER]:   Done waiting for all views to stop loading
+[242.068][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346215450/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[247.072][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=stray&keyfrom=dict.index"
+}
+
+[247.072][FINER]:   Waiting for all views to stop loading...
+[247.072][FINER]:   Done waiting for all views to stop loading
+[249.891][FINER]:   Waiting for all views to stop loading...
+[249.896][FINER]:   Done waiting for all views to stop loading
+[249.896][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[249.899][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[249.899][FINER]:   Waiting for all views to stop loading...
+[249.899][FINER]:   Done waiting for all views to stop loading
+[249.913][FINER]:   Waiting for all views to stop loading...
+[249.914][FINER]:   Done waiting for all views to stop loading
+[249.914][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346223324"
+   }
+}
+
+[249.916][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346223324/attribute/class)
+[249.916][FINER]:   Waiting for all views to stop loading...
+[249.916][FINER]:   Done waiting for all views to stop loading
+[249.929][FINER]:   Waiting for all views to stop loading...
+[249.929][FINER]:   Done waiting for all views to stop loading
+[249.929][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346223324/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[249.930][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346223324/attribute/class)
+[249.930][FINER]:   Waiting for all views to stop loading...
+[249.931][FINER]:   Done waiting for all views to stop loading
+[249.936][FINER]:   Waiting for all views to stop loading...
+[249.937][FINER]:   Done waiting for all views to stop loading
+[249.937][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346223324/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[254.939][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=scrambling&keyfrom=dict.index"
+}
+
+[254.939][FINER]:   Waiting for all views to stop loading...
+[254.939][FINER]:   Done waiting for all views to stop loading
+[258.474][FINER]:   Waiting for all views to stop loading...
+[258.479][FINER]:   Done waiting for all views to stop loading
+[258.479][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[258.483][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[258.483][FINER]:   Waiting for all views to stop loading...
+[258.484][FINER]:   Done waiting for all views to stop loading
+[258.499][FINER]:   Waiting for all views to stop loading...
+[258.499][FINER]:   Done waiting for all views to stop loading
+[258.499][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346231909"
+   }
+}
+
+[258.502][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346231909/attribute/class)
+[258.502][FINER]:   Waiting for all views to stop loading...
+[258.502][FINER]:   Done waiting for all views to stop loading
+[258.525][FINER]:   Waiting for all views to stop loading...
+[258.526][FINER]:   Done waiting for all views to stop loading
+[258.526][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346231909/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[258.528][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346231909/attribute/class)
+[258.528][FINER]:   Waiting for all views to stop loading...
+[258.528][FINER]:   Done waiting for all views to stop loading
+[258.539][FINER]:   Waiting for all views to stop loading...
+[258.539][FINER]:   Done waiting for all views to stop loading
+[258.539][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346231909/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[263.542][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=teetering&keyfrom=dict.index"
+}
+
+[263.542][FINER]:   Waiting for all views to stop loading...
+[263.543][FINER]:   Done waiting for all views to stop loading
+[268.536][FINER]:   Waiting for all views to stop loading...
+[268.541][FINER]:   Done waiting for all views to stop loading
+[268.541][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[268.544][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[268.544][FINER]:   Waiting for all views to stop loading...
+[268.545][FINER]:   Done waiting for all views to stop loading
+[268.587][FINER]:   Waiting for all views to stop loading...
+[268.587][FINER]:   Done waiting for all views to stop loading
+[268.587][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346241997"
+   }
+}
+
+[268.590][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346241997/attribute/class)
+[268.590][FINER]:   Waiting for all views to stop loading...
+[268.590][FINER]:   Done waiting for all views to stop loading
+[268.603][FINER]:   Waiting for all views to stop loading...
+[268.604][FINER]:   Done waiting for all views to stop loading
+[268.604][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346241997/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[268.606][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346241997/attribute/class)
+[268.606][FINER]:   Waiting for all views to stop loading...
+[268.606][FINER]:   Done waiting for all views to stop loading
+[268.612][FINER]:   Waiting for all views to stop loading...
+[268.613][FINER]:   Done waiting for all views to stop loading
+[268.613][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346241997/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[273.614][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=wrench&keyfrom=dict.index"
+}
+
+[273.615][FINER]:   Waiting for all views to stop loading...
+[273.615][FINER]:   Done waiting for all views to stop loading
+[277.551][FINER]:   Waiting for all views to stop loading...
+[277.556][FINER]:   Done waiting for all views to stop loading
+[277.556][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[277.559][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[277.559][FINER]:   Waiting for all views to stop loading...
+[277.559][FINER]:   Done waiting for all views to stop loading
+[277.574][FINER]:   Waiting for all views to stop loading...
+[277.575][FINER]:   Done waiting for all views to stop loading
+[277.575][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346250984"
+   }
+}
+
+[277.578][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346250984/attribute/class)
+[277.578][FINER]:   Waiting for all views to stop loading...
+[277.578][FINER]:   Done waiting for all views to stop loading
+[277.599][FINER]:   Waiting for all views to stop loading...
+[277.600][FINER]:   Done waiting for all views to stop loading
+[277.600][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346250984/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[277.602][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346250984/attribute/class)
+[277.602][FINER]:   Waiting for all views to stop loading...
+[277.602][FINER]:   Done waiting for all views to stop loading
+[277.608][FINER]:   Waiting for all views to stop loading...
+[277.608][FINER]:   Done waiting for all views to stop loading
+[277.608][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346250984/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[282.612][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=manyfold&keyfrom=dict.index"
+}
+
+[282.612][FINER]:   Waiting for all views to stop loading...
+[282.612][FINER]:   Done waiting for all views to stop loading
+[285.338][FINER]:   Waiting for all views to stop loading...
+[285.341][FINER]:   Done waiting for all views to stop loading
+[285.341][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[285.343][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[285.343][FINER]:   Waiting for all views to stop loading...
+[285.343][FINER]:   Done waiting for all views to stop loading
+[285.351][FINER]:   Waiting for all views to stop loading...
+[285.351][FINER]:   Done waiting for all views to stop loading
+[285.351][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346258761"
+   }
+}
+
+[285.353][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346258761/attribute/class)
+[285.353][FINER]:   Waiting for all views to stop loading...
+[285.354][FINER]:   Done waiting for all views to stop loading
+[285.366][FINER]:   Waiting for all views to stop loading...
+[285.367][FINER]:   Done waiting for all views to stop loading
+[285.367][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346258761/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[285.369][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346258761/attribute/class)
+[285.369][FINER]:   Waiting for all views to stop loading...
+[285.369][FINER]:   Done waiting for all views to stop loading
+[285.376][FINER]:   Waiting for all views to stop loading...
+[285.376][FINER]:   Done waiting for all views to stop loading
+[285.376][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346258761/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[290.379][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=gestalt&keyfrom=dict.index"
+}
+
+[290.379][FINER]:   Waiting for all views to stop loading...
+[290.379][FINER]:   Done waiting for all views to stop loading
+[294.235][FINER]:   Waiting for all views to stop loading...
+[294.238][FINER]:   Done waiting for all views to stop loading
+[294.238][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[294.239][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[294.240][FINER]:   Waiting for all views to stop loading...
+[294.240][FINER]:   Done waiting for all views to stop loading
+[294.258][FINER]:   Waiting for all views to stop loading...
+[294.258][FINER]:   Done waiting for all views to stop loading
+[294.258][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346267668"
+   }
+}
+
+[294.260][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346267668/attribute/class)
+[294.260][FINER]:   Waiting for all views to stop loading...
+[294.261][FINER]:   Done waiting for all views to stop loading
+[294.275][FINER]:   Waiting for all views to stop loading...
+[294.276][FINER]:   Done waiting for all views to stop loading
+[294.276][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346267668/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[294.277][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346267668/attribute/class)
+[294.277][FINER]:   Waiting for all views to stop loading...
+[294.278][FINER]:   Done waiting for all views to stop loading
+[294.283][FINER]:   Waiting for all views to stop loading...
+[294.283][FINER]:   Done waiting for all views to stop loading
+[294.283][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346267668/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[299.286][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=cult&keyfrom=dict.index"
+}
+
+[299.286][FINER]:   Waiting for all views to stop loading...
+[299.287][FINER]:   Done waiting for all views to stop loading
+[302.252][FINER]:   Waiting for all views to stop loading...
+[302.257][FINER]:   Done waiting for all views to stop loading
+[302.257][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[302.260][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[302.260][FINER]:   Waiting for all views to stop loading...
+[302.260][FINER]:   Done waiting for all views to stop loading
+[302.277][FINER]:   Waiting for all views to stop loading...
+[302.277][FINER]:   Done waiting for all views to stop loading
+[302.277][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364346275689"
+   }
+}
+
+[302.280][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346275689/attribute/class)
+[302.280][FINER]:   Waiting for all views to stop loading...
+[302.280][FINER]:   Done waiting for all views to stop loading
+[302.299][FINER]:   Waiting for all views to stop loading...
+[302.299][FINER]:   Done waiting for all views to stop loading
+[302.299][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346275689/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[302.301][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346275689/attribute/class)
+[302.301][FINER]:   Waiting for all views to stop loading...
+[302.301][FINER]:   Done waiting for all views to stop loading
+[302.307][FINER]:   Waiting for all views to stop loading...
+[302.308][FINER]:   Done waiting for all views to stop loading
+[302.308][FINE]:    Command finished (/session/756ee703fb8d85959c6f1be054cbe160/element/:wdc:1364346275689/attribute/class) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 0,
+   "value": "remove_from_wordbook"
+}
+
+[307.311][FINE]:    Command received (/session/756ee703fb8d85959c6f1be054cbe160/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=Peeps\u00C2\u00AE&keyfrom=dict.index"
+}
+
+[307.311][FINER]:   Waiting for all views to stop loading...
+[307.311][FINER]:   Done waiting for all views to stop loading
+[307.312][FINER]:   Waiting for all views to stop loading...
+[307.312][FINER]:   Done waiting for all views to stop loading
+[307.312][WARNING]: Command finished (/session/756ee703fb8d85959c6f1be054cbe160/url) with response {
+   "sessionId": "756ee703fb8d85959c6f1be054cbe160",
+   "status": 400,
+   "value": {
+      "message": "Missing 'url' parameter"
    }
 }
 
