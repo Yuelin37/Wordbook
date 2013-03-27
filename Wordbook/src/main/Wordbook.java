@@ -20,6 +20,11 @@ public class Wordbook {
 				"driver/chromedriver");
 		}
 		
+		if (currentOS.contains("Windows")){
+			System.setProperty("webdriver.chrome.driver",
+				"driver/chromedriver.exe");
+		}
+		
 		WebDriver driver = new ChromeDriver();
 
 		// And now use this to visit Google
