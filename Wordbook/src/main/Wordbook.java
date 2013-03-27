@@ -1,4 +1,4 @@
-package example;
+package main;
 
 import java.io.*;
 
@@ -70,9 +70,15 @@ public class Wordbook {
 		try {
 			// 1. Buffered input file
 			DataInputStream in = new DataInputStream(new BufferedInputStream(
-					new FileInputStream("D:\\seleniumTest\\output.txt")));
+					new FileInputStream("output.txt")));
 			in.readLine();
 			String s = new String();
+			
+			int i = 0;
+			while ((s = in.readLine()) != null && i <400){
+				i ++;
+			}
+			
 			while ((s = in.readLine()) != null){				
 				if (s.length() > 0 && s.length()<=20 && !s.contains(" ")){
 					System.out.println("http://dict.youdao.com/search?le=eng&q="+s+"&keyfrom=dict.index");
