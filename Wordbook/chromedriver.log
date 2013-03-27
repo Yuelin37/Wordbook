@@ -1,61 +1,209 @@
-[0.000][INFO]:      ChromeDriver 26.0.1383.0 C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe
-[0.205][FINE]:      Initializing session with capabilities {
-   "browserName": "chrome",
-   "chrome.switches": [  ],
-   "chromeOptions": {
-      "args": [  ],
-      "extensions": [  ]
-   },
-   "platform": "ANY",
-   "version": ""
-}
-
-[0.206][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
-[0.449][INFO]:      Connected to Chrome successfully. Version: 25.0.1364.172
-[0.463][FINE]:      Command received (/session/4e7c4f08ae784b5ee445ef69211b8609)
-[0.463][FINE]:      Command finished (/session/4e7c4f08ae784b5ee445ef69211b8609) with response {
-   "sessionId": "4e7c4f08ae784b5ee445ef69211b8609",
-   "status": 0,
-   "value": {
-      "acceptSslCerts": false,
-      "applicationCacheEnabled": false,
-      "browserConnectionEnabled": false,
-      "browserName": "chrome",
-      "chrome.chromedriverVersion": "26.0.1383.0",
-      "cssSelectorsEnabled": true,
-      "databaseEnabled": false,
-      "handlesAlerts": true,
-      "javascriptEnabled": true,
-      "locationContextEnabled": false,
-      "nativeEvents": true,
-      "platform": "windows",
-      "rotatable": false,
-      "takesScreenshot": true,
-      "version": "25.0.1364.172",
-      "webStorageEnabled": true
-   }
-}
-
-[0.474][FINE]:      Command received (/session/4e7c4f08ae784b5ee445ef69211b8609/url) with params {
-   "url": "http://dict.youdao.com/search?le=eng&q=flint&keyfrom=dict.index"
-}
-
-[0.474][FINER]:     Waiting for all views to stop loading...
-[0.474][FINER]:     Done waiting for all views to stop loading
-[6.867][FINER]:     Waiting for all views to stop loading...
-[6.874][FINER]:     Done waiting for all views to stop loading
-[6.874][FINE]:      Command finished (/session/4e7c4f08ae784b5ee445ef69211b8609/url) with response {
-   "sessionId": "4e7c4f08ae784b5ee445ef69211b8609",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[6.881][FINE]:      Command received (/session/4e7c4f08ae784b5ee445ef69211b8609/element) with params {
-   "using": "link text",
-   "value": "\u767B\u5F55"
-}
-
-[6.881][FINER]:     Waiting for all views to stop loading...
-[6.890][FINER]:     Done waiting for all views to stop loading
+[0.000][INFO]:      ChromeDriver 26.0.1383.0 /Users/ylyan/GitHub/Wordbook/Wordbook/driver/chromedriver
+[0.589][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.589][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --use-mock-keychain --ignore-certificate-errors about:blank
+[1.029][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.43
+[1.038][FINE]:      Command received (/session/b9b752459fee0aae4e2fe2ad28efb402)
+[1.038][FINE]:      Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "mac",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "26.0.1410.43",
+      "webStorageEnabled": true
+   }
+}
+
+[1.051][FINE]:      Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=flint&keyfrom=dict.index"
+}
+
+[1.051][FINER]:     Waiting for all views to stop loading...
+[1.051][FINER]:     Done waiting for all views to stop loading
+[20.782][FINER]:    Waiting for all views to stop loading...
+[20.785][FINER]:    Done waiting for all views to stop loading
+[20.785][FINE]:     Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402/url) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[20.793][FINE]:     Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/element) with params {
+   "using": "link text",
+   "value": "\u767B\u5F55"
+}
+
+[20.793][FINER]:    Waiting for all views to stop loading...
+[20.796][FINER]:    Done waiting for all views to stop loading
+[20.823][FINER]:    Waiting for all views to stop loading...
+[20.823][FINER]:    Done waiting for all views to stop loading
+[20.823][FINE]:     Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402/element) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364353163887"
+   }
+}
+
+[20.829][FINE]:     Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/element/:wdc:1364353163887/click) with params {
+   "id": ":wdc:1364353163887"
+}
+
+[20.829][FINER]:    Waiting for all views to stop loading...
+[20.829][FINER]:    Done waiting for all views to stop loading
+[20.902][FINER]:    Waiting for all views to stop loading...
+[23.712][FINER]:    Done waiting for all views to stop loading
+[23.712][FINE]:     Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402/element/:wdc:1364353163887/click) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[23.714][FINE]:     Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/element) with params {
+   "using": "id",
+   "value": "username"
+}
+
+[23.714][FINER]:    Waiting for all views to stop loading...
+[23.714][FINER]:    Done waiting for all views to stop loading
+[23.729][FINER]:    Waiting for all views to stop loading...
+[23.730][FINER]:    Done waiting for all views to stop loading
+[23.730][FINE]:     Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402/element) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364353166794"
+   }
+}
+
+[23.732][FINE]:     Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/element/:wdc:1364353166794/value) with params {
+   "id": ":wdc:1364353166794",
+   "value": [ "yuelinyan@hotmail.com" ]
+}
+
+[23.732][FINER]:    Waiting for all views to stop loading...
+[23.733][FINER]:    Done waiting for all views to stop loading
+[23.901][FINER]:    Waiting for all views to stop loading...
+[23.901][FINER]:    Done waiting for all views to stop loading
+[23.901][FINE]:     Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402/element/:wdc:1364353166794/value) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[23.902][FINE]:     Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/element) with params {
+   "using": "id",
+   "value": "password"
+}
+
+[23.902][FINER]:    Waiting for all views to stop loading...
+[23.903][FINER]:    Done waiting for all views to stop loading
+[23.917][FINER]:    Waiting for all views to stop loading...
+[23.917][FINER]:    Done waiting for all views to stop loading
+[23.918][FINE]:     Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402/element) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364353166795"
+   }
+}
+
+[23.920][FINE]:     Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/element/:wdc:1364353166795/value) with params {
+   "id": ":wdc:1364353166795",
+   "value": [ "hanxiaomei" ]
+}
+
+[23.920][FINER]:    Waiting for all views to stop loading...
+[23.920][FINER]:    Done waiting for all views to stop loading
+[23.990][FINER]:    Waiting for all views to stop loading...
+[23.990][FINER]:    Done waiting for all views to stop loading
+[23.990][FINE]:     Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402/element/:wdc:1364353166795/value) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[23.992][FINE]:     Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/element/:wdc:1364353166795/submit) with params {
+   "id": ":wdc:1364353166795"
+}
+
+[23.992][FINER]:    Waiting for all views to stop loading...
+[23.992][FINER]:    Done waiting for all views to stop loading
+[24.010][FINER]:    Waiting for all views to stop loading...
+[40.989][FINER]:    Done waiting for all views to stop loading
+[40.989][FINE]:     Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402/element/:wdc:1364353166795/submit) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": null
+}
+
+[40.992][FINE]:     Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[40.992][FINER]:    Waiting for all views to stop loading...
+[40.995][FINER]:    Done waiting for all views to stop loading
+[41.012][FINER]:    Waiting for all views to stop loading...
+[41.013][FINER]:    Done waiting for all views to stop loading
+[41.013][FINE]:     Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402/element) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364353184076"
+   }
+}
+
+[41.018][FINE]:     Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/url) with params {
+   "url": "http://dict.youdao.com/search?le=eng&q=gazed&keyfrom=dict.index"
+}
+
+[41.018][FINER]:    Waiting for all views to stop loading...
+[41.018][FINER]:    Done waiting for all views to stop loading
+[52.896][FINER]:    Waiting for all views to stop loading...
+[52.942][FINER]:    Done waiting for all views to stop loading
+[52.942][FINE]:     Command finished (/session/b9b752459fee0aae4e2fe2ad28efb402/url) with response {
+   "sessionId": "b9b752459fee0aae4e2fe2ad28efb402",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[52.944][FINE]:     Command received (/session/b9b752459fee0aae4e2fe2ad28efb402/element) with params {
+   "using": "id",
+   "value": "wordbook"
+}
+
+[52.944][FINER]:    Waiting for all views to stop loading...
+[52.958][FINER]:    Done waiting for all views to stop loading
