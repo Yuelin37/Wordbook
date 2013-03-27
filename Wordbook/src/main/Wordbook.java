@@ -15,7 +15,7 @@ public class Wordbook {
 		// Notice that the remainder of the code relies on the interface,
 		// not the implementation.
 		System.setProperty("webdriver.chrome.driver",
-				"driver/chromedriver");
+				"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		// And now use this to visit Google
