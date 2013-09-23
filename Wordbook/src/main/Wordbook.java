@@ -35,17 +35,18 @@ public class Wordbook {
 		WebElement username = driver.findElement(By.id("username"));
 		username.sendKeys("yuelinyan@hotmail.com");
 		WebElement pword = driver.findElement(By.id("password"));
-		pword.sendKeys("hanxiaomei");
+		pword.sendKeys("handangdang");
 		pword.submit();
 
 		
 
 		// Find the 'Add To Wordbook' button
 		WebElement addButton = driver.findElement(By.id("wordbook"));
+		//WebElement errorTypo = driver.findElement(By.className("error-typo"));
 		
 		try {
 			// Open the file which contains the words you want to add
-			FileInputStream fstream = new FileInputStream("output.txt");
+			FileInputStream fstream = new FileInputStream("b.txt");
 			// Get the object of DataInputStream
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
@@ -53,20 +54,29 @@ public class Wordbook {
 			// TODO
 			// I have some problem with the first chars in the first line
 			// Read the first line, so the word in the first line will not be prcossed
-			newWord = br.readLine();
+	
 			
+			int i=0;
 			// Read File Line By Line, start from the second line
 			while ((newWord = br.readLine()) != null) {
 				// Print the content on the console
-				System.out.println(newWord);
-				if (newWord.length() > 0 && newWord.length() <= 20
-						&& !newWord.contains(" ")) {
+				System.out.println(i);
+				i++;
+				if (newWord.length() > 1 && newWord.length() <= 50) {
+					System.out.println(newWord.length());
 					System.out
 							.println("http://dict.youdao.com/search?le=eng&q="
 									+ newWord + "&keyfrom=dict.index");
 					driver.get("http://dict.youdao.com/search?le=eng&q="
 							+ newWord + "&keyfrom=dict.index");
-					addButton = driver.findElement(By.id("wordbook"));
+					try {
+						addButton = driver.findElement(By.id("wordbook"));
+						assert addButton.isDisplayed()==true;
+					
+					} catch(AssertionError ae) {
+					   System.out.println("The table was located, but not displayed.");
+					}
+					
 					if (addButton.getAttribute("class").contains("add"))
 						addButton.click();
 					System.out.println(addButton.getAttribute("class")
