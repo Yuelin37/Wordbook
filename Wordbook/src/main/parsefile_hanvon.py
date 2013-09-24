@@ -11,7 +11,7 @@ eof = False
 
 while not eof:
     curLine = my_file.readline()
-    if curLine.find('*')==-1 and curLine.find(';')==-1 :
+    if curLine.find('*')==-1 and curLine.find(';')==-1 and curLine.find('/')==-1:
         my_list.append(curLine)
     if curLine == "":
         eof = True

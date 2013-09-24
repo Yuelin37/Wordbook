@@ -24,11 +24,11 @@ public class Wordbook {
 		}
 		WebDriver driver = new ChromeDriver();
 
-		// And now use this to visit Youdo dictionary query page   
+		// And now use this to visit Youdo dictionary query page
 		driver.get("http://dict.youdao.com/search?le=eng&q=flint&keyfrom=dict.index");
 		// Alternatively the same thing can be done like this
 		// driver.navigate().to("http://www.google.com");
-		
+
 		// Login
 		WebElement login = driver.findElement(By.linkText("登录"));
 		login.click();
@@ -38,25 +38,24 @@ public class Wordbook {
 		pword.sendKeys("handangdang");
 		pword.submit();
 
-		
-
 		// Find the 'Add To Wordbook' button
 		WebElement addButton = driver.findElement(By.id("wordbook"));
-		//WebElement errorTypo = driver.findElement(By.className("error-typo"));
-		
+		// WebElement errorTypo =
+		// driver.findElement(By.className("error-typo"));
+
 		try {
 			// Open the file which contains the words you want to add
-			FileInputStream fstream = new FileInputStream("b.txt");
+			FileInputStream fstream = new FileInputStream("output.txt");
 			// Get the object of DataInputStream
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String newWord;
 			// TODO
 			// I have some problem with the first chars in the first line
-			// Read the first line, so the word in the first line will not be prcossed
-	
-			
-			int i=0;
+			// Read the first line, so the word in the first line will not be
+			// prcossed
+
+			int i = 0;
 			// Read File Line By Line, start from the second line
 			while ((newWord = br.readLine()) != null) {
 				// Print the content on the console
@@ -71,12 +70,13 @@ public class Wordbook {
 							+ newWord + "&keyfrom=dict.index");
 					try {
 						addButton = driver.findElement(By.id("wordbook"));
-						assert addButton.isDisplayed()==true;
-					
-					} catch(AssertionError ae) {
-					   System.out.println("The table was located, but not displayed.");
+						assert addButton.isDisplayed() == true;
+
+					} catch (AssertionError ae) {
+						System.out
+								.println("The table was located, but not displayed.");
 					}
-					
+
 					if (addButton.getAttribute("class").contains("add"))
 						addButton.click();
 					System.out.println(addButton.getAttribute("class")
@@ -84,7 +84,6 @@ public class Wordbook {
 					try {
 						Thread.sleep(3000);
 					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 				}
@@ -95,6 +94,7 @@ public class Wordbook {
 		} catch (Exception e) {// Catch exception if any
 			System.err.println("Error: " + e.getMessage());
 		}
-
+		driver.close();
+		driver.quit();
 	}
 }
