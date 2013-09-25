@@ -43,6 +43,8 @@ public class Wordbook {
 		// WebElement errorTypo =
 		// driver.findElement(By.className("error-typo"));
 
+		String[] Unfound = new String[100];
+
 		try {
 			// Open the file which contains the words you want to add
 			FileInputStream fstream = new FileInputStream("output.txt");
@@ -54,45 +56,48 @@ public class Wordbook {
 			// I have some problem with the first chars in the first line
 			// Read the first line, so the word in the first line will not be
 			// prcossed
-
 			int i = 0;
+
 			// Read File Line By Line, start from the second line
 			while ((newWord = br.readLine()) != null) {
 				// Print the content on the console
-				System.out.println(i);
-				i++;
 				if (newWord.length() > 1 && newWord.length() <= 50) {
-					System.out.println(newWord.length());
+					// System.out.println(newWord.length());
 					System.out
 							.println("http://dict.youdao.com/search?le=eng&q="
 									+ newWord + "&keyfrom=dict.index");
 					driver.get("http://dict.youdao.com/search?le=eng&q="
 							+ newWord + "&keyfrom=dict.index");
-					
-						if (driver.findElements(By.id("wordbook")).size()<1)
-							continue;
-						System.out.println("=========================================");
-						System.out.println(driver.findElements(By.id("wordbook")).size());
-						System.out.println("=========================================");
-						addButton = driver.findElement(By.id("wordbook"));
-						if (addButton.getAttribute("class").contains("add"))
-							addButton.click();
-						System.out.println(addButton.getAttribute("class")
-								.toString());
 
-					
-
-					
-					try {
-						Thread.sleep(3000);
-					} catch (InterruptedException e) {
-						e.printStackTrace();
+					if (driver.findElements(By.id("wordbook")).size() < 1
+							|| driver.findElements(By.className("error-typo"))
+									.size() > 0) {
+						Unfound[i] = newWord;
+						i++;
+						continue;
 					}
+					addButton = driver.findElement(By.id("wordbook"));
+					if (addButton.getAttribute("class").contains("add"))
+						addButton.click();
+					// System.out.println(addButton.getAttribute("class").toString());
+
+					/*
+					 * try { Thread.sleep(3000); } catch (InterruptedException
+					 * e) { e.printStackTrace(); }
+					 */
 				}
+			}
+
+			FileOutputStream out = new FileOutputStream("unfound.txt");
+			for (int j = 0; j < i; j++) {
+				System.out.println(Unfound[j]);
+				out.write(Unfound[j].getBytes());
+				out.write("\r\n".getBytes());
 			}
 
 			// Close the input stream
 			in.close();
+			out.close();
 		} catch (Exception e) {// Catch exception if any
 			System.err.println("Error: " + e.getMessage());
 		}
