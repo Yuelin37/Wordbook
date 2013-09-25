@@ -68,19 +68,21 @@ public class Wordbook {
 									+ newWord + "&keyfrom=dict.index");
 					driver.get("http://dict.youdao.com/search?le=eng&q="
 							+ newWord + "&keyfrom=dict.index");
-					try {
+					
+						if (driver.findElements(By.id("wordbook")).size()<1)
+							continue;
+						System.out.println("=========================================");
+						System.out.println(driver.findElements(By.id("wordbook")).size());
+						System.out.println("=========================================");
 						addButton = driver.findElement(By.id("wordbook"));
-						assert addButton.isDisplayed() == true;
+						if (addButton.getAttribute("class").contains("add"))
+							addButton.click();
+						System.out.println(addButton.getAttribute("class")
+								.toString());
 
-					} catch (AssertionError ae) {
-						System.out
-								.println("The table was located, but not displayed.");
-					}
+					
 
-					if (addButton.getAttribute("class").contains("add"))
-						addButton.click();
-					System.out.println(addButton.getAttribute("class")
-							.toString());
+					
 					try {
 						Thread.sleep(3000);
 					} catch (InterruptedException e) {
