@@ -22,9 +22,10 @@ public class ParseFile {
 			String strLine;
 			// Read File Line By Line
 			while ((strLine = br.readLine()) != null) {
-				if (strLine.indexOf("/") < 0 && strLine.indexOf("[")<0 && strLine.length()>1) {
+				if (isLetterDigitOrChinese(strLine) && strLine.length()>1) {
 					newWordList.add(strLine);
 				}
+
 			}
 			// Close the input stream
 			in.close();
@@ -41,6 +42,12 @@ public class ParseFile {
 			System.err.println("Error: " + e.getMessage());
 		}
 
+	}
+
+	public static boolean isLetterDigitOrChinese(String str) {
+		String regex = "^[a-z0-9A-Z- ]+$";
+		//String regex = "^[a-z0-9A-Z\u4e00-\u9fa5]+$";
+		return str.matches(regex);
 	}
 
 }
