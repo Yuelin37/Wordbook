@@ -47,7 +47,7 @@ public class Wordbook {
 
 		try {
 			// Open the file which contains the words you want to add
-			FileInputStream fstream = new FileInputStream("output.txt");
+			FileInputStream fstream = new FileInputStream("newoutput.txt");
 			// Get the object of DataInputStream
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
