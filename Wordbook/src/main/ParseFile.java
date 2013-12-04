@@ -11,6 +11,7 @@ public class ParseFile {
 	public static void main(String[] args) {
 
 		ArrayList newWordList = new ArrayList();
+		ArrayList filteredWordList = new ArrayList();
 
 		try {
 			// Open the file that is the first
@@ -22,15 +23,24 @@ public class ParseFile {
 			String strLine;
 			// Read File Line By Line
 			while ((strLine = br.readLine()) != null) {
-				if (isLetterDigitOrChinese(strLine) && strLine.length()>1) {
+				// Replacing all non-alphanumeric characters with empty strings 
+				strLine = strLine.replaceAll("[^A-Za-z]", " ");
+				
+				// Replacing multiple spaces with single space
+				strLine = strLine.replaceAll("( )+", " ");
+				
+				if (isLetterDigitOrChinese(strLine) && strLine.length()>1 && strLine.length()<41) {
 					newWordList.add(strLine);
+				}
+				else{
+					filteredWordList.add(strLine);
 				}
 
 			}
 			// Close the input stream
 			in.close();
 
-			FileOutputStream out = new FileOutputStream("newoutput.txt");
+			FileOutputStream out = new FileOutputStream("newoutput1.txt");
 			for (int i = 0; i < newWordList.size(); i++) {
 				out.write(newWordList.get(i).toString().getBytes());
 				out.write("\r\n".getBytes());
@@ -38,6 +48,14 @@ public class ParseFile {
 
 			// Close the input stream
 			out.close();
+			
+			FileOutputStream fileredOut = new FileOutputStream("fileredOut.txt");
+			for (int i = 0; i < filteredWordList.size(); i++) {
+				fileredOut.write(filteredWordList.get(i).toString().getBytes());
+				fileredOut.write("\r\n".getBytes());
+			}
+
+			fileredOut.close();
 		} catch (Exception e) {// Catch exception if any
 			System.err.println("Error: " + e.getMessage());
 		}
