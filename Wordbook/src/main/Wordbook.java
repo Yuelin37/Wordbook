@@ -52,6 +52,10 @@ public class Wordbook {
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String newWord;
+			
+			// 
+			FileOutputStream wordBook = new FileOutputStream("Wordbook.txt", true);
+			
 			// TODO
 			// I have some problem with the first chars in the first line
 			// Read the first line, so the word in the first line will not be
@@ -77,16 +81,23 @@ public class Wordbook {
 						continue;
 					}
 					addButton = driver.findElement(By.id("wordbook"));
-					if (addButton.getAttribute("class").contains("add"))
+					if (addButton.getAttribute("class").contains("add")){
 						addButton.click();
+						wordBook.write(newWord.getBytes());
+						wordBook.write("\r\n".getBytes());
+					}
 					// System.out.println(addButton.getAttribute("class").toString());
 
 					/*
 					 * try { Thread.sleep(3000); } catch (InterruptedException
 					 * e) { e.printStackTrace(); }
 					 */
+					
+					
 				}
 			}
+			
+			wordBook.close();
 
 			FileOutputStream out = new FileOutputStream("unfound.txt");
 			for (int j = 0; j < i; j++) {
