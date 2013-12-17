@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.util.*;
 
 public class Wordbook {
 	public static void main(String[] args) throws IOException {
@@ -52,10 +53,12 @@ public class Wordbook {
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String newWord;
-			
-			// 
-			FileOutputStream wordBook = new FileOutputStream("Wordbook.txt", true);
-			
+
+			//
+			FileOutputStream wordBook = new FileOutputStream("Wordbook.txt",
+					true);
+
+			File currentWords = new File("Wordbook.txt");
 			// TODO
 			// I have some problem with the first chars in the first line
 			// Read the first line, so the word in the first line will not be
@@ -64,6 +67,11 @@ public class Wordbook {
 
 			// Read File Line By Line, start from the second line
 			while ((newWord = br.readLine()) != null) {
+				newWord = newWord.trim();
+				if (countWord(newWord, currentWords) > 0) {
+					System.out.println("Already Added");
+					continue;
+				}
 				// Print the content on the console
 				if (newWord.length() > 1 && newWord.length() <= 50) {
 					// System.out.println(newWord.length());
@@ -81,24 +89,22 @@ public class Wordbook {
 						continue;
 					}
 					addButton = driver.findElement(By.id("wordbook"));
-					if (addButton.getAttribute("class").contains("add")){
+					if (addButton.getAttribute("class").contains("add")) {
 						addButton.click();
-						wordBook.write(newWord.getBytes());
-						wordBook.write("\r\n".getBytes());
+
 					}
-					// System.out.println(addButton.getAttribute("class").toString());
+					 wordBook.write(newWord.getBytes());
+					 wordBook.write("\r\n".getBytes());
 
 					/*
 					 * try { Thread.sleep(3000); } catch (InterruptedException
 					 * e) { e.printStackTrace(); }
 					 */
-					
-					
-				}
-			}
-			
-			wordBook.close();
 
+				}
+
+			}
+			wordBook.close();
 			FileOutputStream out = new FileOutputStream("unfound.txt");
 			for (int j = 0; j < i; j++) {
 				System.out.println(Unfound[j]);
@@ -110,9 +116,27 @@ public class Wordbook {
 			in.close();
 			out.close();
 		} catch (Exception e) {// Catch exception if any
-			System.err.println("Error: " + e.getMessage());
+			System.err.println("Error123: " + e.getMessage());
 		}
 		driver.close();
 		driver.quit();
+	}
+
+	static int countWord(String word, File file) {
+		int count = 0;
+		Scanner scanner;
+		try {
+			scanner = new Scanner(file);
+			while (scanner.hasNextLine()) {
+				String nextToken = scanner.nextLine();
+				if (nextToken.equalsIgnoreCase(word))
+					count++;
+			}
+
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return count;
 	}
 }

@@ -16,7 +16,7 @@ public class ParseFile {
 		try {
 			// Open the file that is the first
 			// command line parameter
-			FileInputStream fstream = new FileInputStream("newword.txt");
+			FileInputStream fstream = new FileInputStream("My Clippings.txt");
 			// Get the object of DataInputStream
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
@@ -30,10 +30,10 @@ public class ParseFile {
 				strLine = strLine.replaceAll("( )+", " ");
 				
 				if (isLetterDigitOrChinese(strLine) && strLine.length()>1 && strLine.length()<41) {
-					newWordList.add(strLine);
+					newWordList.add(strLine.trim());
 				}
 				else{
-					filteredWordList.add(strLine);
+					filteredWordList.add(strLine.trim());
 				}
 
 			}
