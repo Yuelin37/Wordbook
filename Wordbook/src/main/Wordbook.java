@@ -13,6 +13,8 @@ import java.util.*;
 
 public class Wordbook {
 	public static void main(String[] args) throws IOException {
+		
+		
 		// Create a new instance of the Chrome driver
 		// For Mac and Windows, use different binary
 		String currentOS = System.getProperty("os.name");
@@ -68,6 +70,8 @@ public class Wordbook {
 			// Read File Line By Line, start from the second line
 			while ((newWord = br.readLine()) != null) {
 				newWord = newWord.trim();
+				System.out.println(newWord);
+				
 				if (countWord(newWord, currentWords) > 0) {
 					System.out.println("Already Added");
 					continue;
