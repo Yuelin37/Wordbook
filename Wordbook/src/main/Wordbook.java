@@ -6,9 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.*;
 
 public class Wordbook {
@@ -25,7 +28,15 @@ public class Wordbook {
 			System.setProperty("webdriver.chrome.driver",
 					"driver/chromedriver.exe");
 		}
-		WebDriver driver = new ChromeDriver();
+		
+		
+		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+	    ChromeOptions options = new ChromeOptions();
+	    options.addArguments("test-type");
+	    capabilities.setCapability("chrome.binary","driver/chromedriver.exe");
+	    capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+		
+		WebDriver driver = new ChromeDriver(capabilities);
 
 		// And now use this to visit Youdo dictionary query page
 		driver.get("http://dict.youdao.com/search?le=eng&q=flint&keyfrom=dict.index");
@@ -33,7 +44,7 @@ public class Wordbook {
 		// driver.navigate().to("http://www.google.com");
 
 		// Login
-		WebElement login = driver.findElement(By.linkText("ç™»å½•"));
+		WebElement login = driver.findElement(By.linkText("µÇÂ¼"));
 		login.click();
 		WebElement username = driver.findElement(By.id("username"));
 		username.sendKeys("yuelinyan@hotmail.com");
