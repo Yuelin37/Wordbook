@@ -44,7 +44,7 @@ public class Wordbook {
 		// driver.navigate().to("http://www.google.com");
 
 		// Login
-		WebElement login = driver.findElement(By.linkText("µÇÂ¼"));
+		WebElement login = driver.findElement(By.linkText("ç™»å½•"));
 		login.click();
 		WebElement username = driver.findElement(By.id("username"));
 		username.sendKeys("yuelinyan@hotmail.com");
