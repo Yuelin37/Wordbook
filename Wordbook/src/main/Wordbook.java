@@ -10,14 +10,14 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.*;
 
 public class Wordbook {
 	public static void main(String[] args) throws IOException {
-		
-		
+
 		// Create a new instance of the Chrome driver
 		// For Mac and Windows, use different binary
 		String currentOS = System.getProperty("os.name");
@@ -28,32 +28,39 @@ public class Wordbook {
 			System.setProperty("webdriver.chrome.driver",
 					"driver/chromedriver.exe");
 		}
-		
-		
+
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-	    ChromeOptions options = new ChromeOptions();
-	    options.addArguments("test-type");
-	    capabilities.setCapability("chrome.binary","driver/chromedriver.exe");
-	    capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("test-type");
+		capabilities.setCapability("chrome.binary", "driver/chromedriver");
+		capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+
 		WebDriver driver = new ChromeDriver(capabilities);
+		// WebDriver driver = new FirefoxDriver();
 
 		// And now use this to visit Youdo dictionary query page
 		driver.get("http://dict.youdao.com/search?le=eng&q=flint&keyfrom=dict.index");
 		// Alternatively the same thing can be done like this
 		// driver.navigate().to("http://www.google.com");
 
+		WebDriverWait wait = new WebDriverWait(driver, 60);
+
 		// Login
-		WebElement login = driver.findElement(By.linkText("登录"));
+		WebElement login = wait.until(ExpectedConditions
+				.elementToBeClickable(By.linkText("登录")));
 		login.click();
-		WebElement username = driver.findElement(By.id("username"));
+
+		WebElement username = wait.until(ExpectedConditions
+				.elementToBeClickable(By.id("username")));     
 		username.sendKeys("yuelinyan@hotmail.com");
-		WebElement pword = driver.findElement(By.id("password"));
+		WebElement pword = wait.until(ExpectedConditions
+				.elementToBeClickable(By.id("password")));
 		pword.sendKeys("handangdang");
 		pword.submit();
 
 		// Find the 'Add To Wordbook' button
-		WebElement addButton = driver.findElement(By.id("wordbook"));
+		// WebElement addButton = wait.until(ExpectedConditions
+		// .elementToBeClickable(By.id("wordbook")));
 		// WebElement errorTypo =
 		// driver.findElement(By.className("error-typo"));
 
@@ -61,7 +68,7 @@ public class Wordbook {
 
 		try {
 			// Open the file which contains the words you want to add
-			FileInputStream fstream = new FileInputStream("newoutput1.txt");
+			FileInputStream fstream = new FileInputStream("SortedWordbook.txt");
 			// Get the object of DataInputStream
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
@@ -72,17 +79,16 @@ public class Wordbook {
 					true);
 
 			File currentWords = new File("Wordbook.txt");
-			// TODO
-			// I have some problem with the first chars in the first line
-			// Read the first line, so the word in the first line will not be
-			// prcossed
+
 			int i = 0;
 
 			// Read File Line By Line, start from the second line
 			while ((newWord = br.readLine()) != null) {
 				newWord = newWord.trim();
+				System.out
+						.println("================================================");
 				System.out.println(newWord);
-				
+
 				if (countWord(newWord, currentWords) > 0) {
 					System.out.println("Already Added");
 					continue;
@@ -96,28 +102,25 @@ public class Wordbook {
 					driver.get("http://dict.youdao.com/search?le=eng&q="
 							+ newWord + "&keyfrom=dict.index");
 
-					if (driver.findElements(By.id("wordbook")).size() < 1
-							|| driver.findElements(By.className("error-typo"))
-									.size() > 0) {
+					try {
+						WebElement addButton = wait.until(ExpectedConditions
+								.elementToBeClickable(By.id("wordbook")));
+						if (addButton.getAttribute("class").contains("add")) {
+							addButton.click();
+
+						}
+					} catch (Exception e) {
+						System.out.println("Cannot find this word in Youdao.");
 						Unfound[i] = newWord;
 						i++;
-						continue;
 					}
-					addButton = driver.findElement(By.id("wordbook"));
-					if (addButton.getAttribute("class").contains("add")) {
-						addButton.click();
 
-					}
-					 wordBook.write(newWord.getBytes());
-					 wordBook.write("\r\n".getBytes());
-
-					/*
-					 * try { Thread.sleep(3000); } catch (InterruptedException
-					 * e) { e.printStackTrace(); }
-					 */
+					wordBook.write(newWord.getBytes());
+					wordBook.write("\r\n".getBytes());
 
 				}
-
+				System.out
+						.println("================================================");
 			}
 			wordBook.close();
 			FileOutputStream out = new FileOutputStream("unfound.txt");
@@ -147,11 +150,13 @@ public class Wordbook {
 				if (nextToken.equalsIgnoreCase(word))
 					count++;
 			}
+			scanner.close();
 
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
 		return count;
 	}
 }

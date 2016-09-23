@@ -29,7 +29,7 @@ public class WordSort {
 
 		// Open the file which contains the words you want to add
 		try {
-			FileInputStream fstream = new FileInputStream("Wordbook.txt");
+			FileInputStream fstream = new FileInputStream("newoutput1.txt");
 			// Get the object of DataInputStream
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
