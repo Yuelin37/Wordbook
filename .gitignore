@@ -161,3 +161,9 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+*.jar
+
+# Node.js Dependency directories
+node_modules/
+

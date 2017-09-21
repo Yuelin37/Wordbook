@@ -1,0 +1,4 @@
+#!/bin/sh
+node wordbook.js
+sort words.txt > SortedWordbook.txt
+java -jar wordbook.jar

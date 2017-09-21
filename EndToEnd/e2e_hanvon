@@ -1,0 +1,8 @@
+#!/bin/sh
+PATH=/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin:/usr/local/apache-maven/apache-maven-3.3.9/bin:/usr/local/sbin:./node_modules/.bin:/Users/ylyan/buildrunner/scripts:/Users/ylyan/bin
+cp /Volumes/Untitled\ 1/newword/newword.txt ./hanvon_newword.txt
+# enca -L chinese hanvon_newword.txt
+iconv --from-code UCS-2 --to-code=UTF-8 hanvon_newword.txt > newword.txt
+/usr/local/bin/python3 ./parsefile_hanvon.py
+cp output.txt SortedWordbook.txt
+java -jar wordbook.jar
