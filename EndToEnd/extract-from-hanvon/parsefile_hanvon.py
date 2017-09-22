@@ -7,28 +7,35 @@ Created on Mar 26, 2013
 '''
 
 
-my_file = open("newword.txt", "r")
+word_file = open("newword.txt", "r")
 
-my_list = []
+word_list = []
 eof = False
 
+def checkNoUnwantedCharInString(str):
+    unWantedChars = [';', '*', '/', '~', '[', '}', ')']
+    for ch in unWantedChars:
+        if str.find(ch) != -1:
+            return False
+    return True
+
 while not eof:
-    curLine = my_file.readline()
+    curLine = word_file.readline()
     # curLine = curLine.decode("UTF-32LE")
-    if len(curLine) >4 and curLine.find('*') == -1 and curLine.find(';') == -1 and curLine.find('/') == -1 and curLine.find('~') == -1 and curLine.find('}') == -1 and curLine.find(')') == -1:
-        my_list.append(curLine)
+    if len(curLine) >4 and checkNoUnwantedCharInString(curLine):
+        word_list.append(curLine)
 
     if curLine == "":
         eof = True
 print('===================================')
-print('Words inmported from Hanvon: %s' % len(my_list))
+print('Words inmported from Hanvon: %s' % len(word_list))
 print('===================================')
 
 words = []
 
 f = open("output.txt", "w")
 
-for word in my_list:
+for word in word_list:
     f.write(word)
 
 f.close()
