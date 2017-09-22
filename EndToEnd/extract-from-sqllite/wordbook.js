@@ -2,7 +2,7 @@ var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database('./vocab.db');
 var fs = require('fs');
 
-var wordbookfile = __dirname + '/words.txt';
+var wordbookfile = __dirname + '/SortedWordbook.txt';
 // if (!fs.existsSync(wordbookfile)) {
 // }
 fs.closeSync(fs.openSync(wordbookfile, 'w'));

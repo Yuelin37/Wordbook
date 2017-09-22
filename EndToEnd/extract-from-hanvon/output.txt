@@ -1,5 +1,3 @@
-organism
-striving
 endocrinology
 infertile
 spiel
@@ -92,3 +90,5 @@ sweep
 reluctant
 captive
 intractable
+Russian
+smoothed

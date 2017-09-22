@@ -1,9 +1,3 @@
-organism
-organism *[ˈɔːɡənızəm]n.生物体;有机体;有机的组织体;被认为类似生物体的体系;微小的动植物
-
-striving
-strive *[straıv]vi.努力,奋斗;竞争;尽力;斗争
-
 endocrinology
 endocrinology *[ˌendəʊkraıˈnɒlədʒı]n.[生理]内分泌学
 
@@ -300,4 +294,10 @@ captive *[ˈkæptıv]n.俘虏;迷恋者 adj.被俘的;被迷住的;受控制的;
 
 intractable
 intractable *[ınˈtræktəbl]adj.难驾驭的;倔强的;不易加工的;难操作的;难以抚平的;不易治愈的
+
+Russian
+Russian *[ˈrʌʃən]n.俄国人;俄国语 adj.俄国的;俄国人的;俄国语的
+
+smoothed
+smooth *[smuːð]adj.光滑的;平静的;流畅的;安稳的;沉着的 vt.使平滑;弄平;使流畅 vi.变平静;变平滑 n.弄平;平地;平面
 

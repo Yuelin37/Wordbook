@@ -1,0 +1,10 @@
+#!/bin/sh
+pushd /Users/ylyan/github/Wordbook/EndToEnd/extract-from-sqllite/
+cp /Volumes/Kindle/system/vocabulary/vocab.db ./vocab.db
+node wordbook.js
+#sort words.txt > SortedWordbook.txt
+cp SortedWordbook.txt ../SortedWordbook.txt
+popd
+pushd /Users/ylyan/github/Wordbook/EndToEnd/
+java -jar wordbook.jar
+popd

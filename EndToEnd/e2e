@@ -1,7 +1,0 @@
-#!/bin/sh
-cp /Volumes/Kindle/system/vocabulary/vocab.db ./vocab.db
-#cp /Users/ylyan/SkyDrive/coding/workbook/empty_db/vocab.db /Volumes/Kindle/system/vocabulary/vocab.db
-node wordbook.js
-#sort words.txt > SortedWordbook.txt
-cp words.txt SortedWordbook.txt
-java -jar wordbook.jar
