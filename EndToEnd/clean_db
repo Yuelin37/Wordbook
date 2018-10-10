@@ -1,0 +1,2 @@
+#!/bin/sh
+cp -f ./empty_db/vocab.db /Volumes/Kindle/system/vocabulary
