@@ -6,5 +6,5 @@ node wordbook.js
 cp SortedWordbook.txt ../SortedWordbook.txt
 popd
 pushd /Users/ylyan/github/Wordbook/EndToEnd/
-java -jar Wordbook-1.1.jar
+java -jar wordbook.jar
 popd

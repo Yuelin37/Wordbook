@@ -42,17 +42,17 @@ public class Wordbook {
 
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		// wait = new WebDriverWait(driver, 10);
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 
 		int numTries = 10;
 		while (true) {
-//			driver.navigate().to("https://www.google.com");
+			// driver.navigate().to("https://www.google.com");
 			try {
 				// And now use this to visit Youdo dictionary query page
 				// driver.get("http://dict.youdao.com/search?le=eng&q=flint&keyfrom=dict.index");
 				driver.navigate().refresh();
-				driver.navigate().to("http://dict.youdao.com/search?le=eng&q=flint&keyfrom=dict.index");
+				driver.navigate().to("http://dict.youdao.com/search?le=eng&q=flint");
 				// Alternatively the same thing can be done like this
 				// driver.navigate().to("http://www.google.com");
 				break;
@@ -93,11 +93,14 @@ public class Wordbook {
 			File currentWords = new File("Wordbook.txt");
 
 			int i = 0;
+			int num = 0;
 
 			// Read File Line By Line, start from the second line
+
 			while ((newWord = br.readLine()) != null) {
 				newWord = newWord.trim();
-				System.out.println("================================================");
+				num++;
+				System.out.println("======================= NO. " + num + " =======================");
 				System.out.println(newWord);
 
 				if (countWord(newWord, currentWords) > 0) {
@@ -107,9 +110,10 @@ public class Wordbook {
 				// Print the content on the console
 				if (newWord.length() > 1 && newWord.length() <= 50) {
 					// System.out.println(newWord.length());
-					System.out.println("http://dict.youdao.com/search?le=eng&q=" + newWord + "&keyfrom=dict.index");
+					System.out.println("http://dict.youdao.com/search?le=eng&q=" + newWord);
 					try {
-						driver.get("http://dict.youdao.com/search?le=eng&q=" + newWord + "&keyfrom=dict.index");
+						driver.navigate().refresh();
+						driver.get("http://dict.youdao.com/search?le=eng&q=" + newWord);
 					} catch (Exception e) {
 						System.out.println("Taking too long to add " + newWord + ". Moving on...");
 					}
@@ -124,15 +128,13 @@ public class Wordbook {
 						if (addButton.getAttribute("class").contains("add")) {
 							addButton.click();
 						}
+						wordBook.write(newWord.getBytes());
+						wordBook.write("\r\n".getBytes());
 					} catch (Exception e) {
 						System.out.println("Cannot find this word in Youdao.");
 						Unfound[i] = newWord;
 						i++;
 					}
-
-					wordBook.write(newWord.getBytes());
-					wordBook.write("\r\n".getBytes());
-
 				}
 				System.out.println("================================================");
 			}
