@@ -96,8 +96,11 @@ public class Wordbook {
 			}
 		}
 
+
 		WebElement login = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("登录")));
 		login.click();
+		WebElement agreePrRule = wait.until(ExpectedConditions.elementToBeClickable(By.id("agreePrRule")));
+		agreePrRule.click();
 		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.id("username")));
 		username.sendKeys("yuelinyan@hotmail.com");
 		WebElement pword = wait.until(ExpectedConditions.elementToBeClickable(By.id("password")));
@@ -154,8 +157,6 @@ public class Wordbook {
 					System.out.println("http://dict.youdao.com/search?le=eng&q=" + newWord);
 					try {
 						driver.get("http://dict.youdao.com/search?le=eng&q=" + newWord);
-						// TODO Need to figure out whether I can get rid of this refresh() operation
-						// driver.navigate().refresh();
 					} catch (Exception e) {
 						System.out.println("Taking too long to add " + newWord + ". Moving on...");
 						continue;
@@ -170,6 +171,8 @@ public class Wordbook {
 						wordBook.write(newWord.getBytes());
 						wordBook.write("\r\n".getBytes());
 					} catch (Exception e) {
+						wordBook.write(newWord.getBytes());
+						wordBook.write("\r\n".getBytes());
 						System.out.println("Fix Me...");
 						Unfound[i] = newWord;
 						i++;

@@ -16,21 +16,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU Lesser General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-UP
-mouseX: 1049 === mouseY: 844
-Key Released: D
-KeyCode: 32
-DOWN
-Key Released: R
-KeyCode: 19
-DOWN
-Key Released: R
-KeyCode: 19
-Key Released: ⌫
-KeyCode: 14
-RIGHT
-Key Released: C
-KeyCode: 46
+Key Released: Left Control
+KeyCode: 29
 Key Released: Left Control
 KeyCode: 29
 RIGHT
